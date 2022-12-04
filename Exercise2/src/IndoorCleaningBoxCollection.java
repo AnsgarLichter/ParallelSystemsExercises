@@ -1,17 +1,19 @@
 import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class IndoorCleaningBoxCollection {
-    private final WashParkRandomizer randomizer;
+    private final ReentrantLock lock = new ReentrantLock();
+    private final Condition condition = lock.newCondition();
 
-    private final List<IndoorCleaningBox> indoorCleaningBoxes = new ArrayList<IndoorCleaningBox>();
+    private final List<IndoorCleaningBox> indoorCleaningBoxes = new ArrayList<>();
 
     public IndoorCleaningBoxCollection(int countOfIndoorCleaningBoxes, WashParkRandomizer randomizer) {
-        this.randomizer = randomizer;
 
         for (int i = 0; i < countOfIndoorCleaningBoxes; i++) {
-            indoorCleaningBoxes.add(new IndoorCleaningBox(this.randomizer));
+            indoorCleaningBoxes.add(new IndoorCleaningBox(randomizer));
         }
     }
 
@@ -24,34 +26,50 @@ public class IndoorCleaningBoxCollection {
         this.updateAvailableIndoorCleaningBoxes();
     }
 
-    public synchronized IndoorCleaningBox getIndoorCleaningBox(Car car) {
-        while (!hasAvailableIndoorCleaningBox()) {
-            System.out.println(
-                    new Timestamp(System.currentTimeMillis()) + ": All washing lines are occupied. Car " + car.id
-                            + " waits ...");
+    public IndoorCleaningBox getIndoorCleaningBox(Car car) {
+        lock.lock();
 
-            try {
-                wait();
-            } catch (InterruptedException e) {
-                System.out.println("Exception occurred waiting for an available washing line: " + e.getMessage());
+        try {
+            while (!hasAvailableIndoorCleaningBox()) {
+                System.out.println(
+                        new Timestamp(System.currentTimeMillis()) + ": All washing lines are occupied. Car " + car.id
+                                + " waits ...");
+
+                condition.await();
             }
-        }
 
-        return getAvailableIndoorCleaningBox();
+            return getAvailableIndoorCleaningBox();
+        } catch (InterruptedException e) {
+            System.out.println("Exception occurred waiting for an available washing line: " + e.getMessage());
+            return null;
+        } finally {
+            lock.unlock();
+        }
     }
 
-    public synchronized boolean hasAvailableIndoorCleaningBox() {
+    public boolean hasAvailableIndoorCleaningBox() {
         return this.getAvailableIndoorCleaningBox() != null;
     }
 
-    private synchronized IndoorCleaningBox getAvailableIndoorCleaningBox() {
-        return indoorCleaningBoxes.stream()
-                .filter(indoorCleaningBox -> indoorCleaningBox.isAvailable())
-                .findFirst()
-                .orElse(null);
+    private IndoorCleaningBox getAvailableIndoorCleaningBox() {
+        lock.lock();
+
+        try {
+            return indoorCleaningBoxes.stream()
+                    .filter(IndoorCleaningBox::isAvailable)
+                    .findFirst()
+                    .orElse(null);
+        } finally {
+            lock.unlock();
+        }
     }
 
-    private synchronized void updateAvailableIndoorCleaningBoxes() {
-        notify();
+    private void updateAvailableIndoorCleaningBoxes() {
+        lock.lock();
+        try {
+            condition.signal();
+        } finally {
+            lock.unlock();
+        }
     }
 }

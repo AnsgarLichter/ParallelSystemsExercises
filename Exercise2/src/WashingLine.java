@@ -1,7 +1,13 @@
 import java.sql.Timestamp;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class WashingLine {
     private final WashParkRandomizer randomizer;
+    private final ReentrantLock lock = new ReentrantLock();
+    private final Condition condition = lock.newCondition();
+
     private volatile boolean isAvailable;
 
     public WashingLine(WashParkRandomizer randomizer) {
@@ -9,27 +15,41 @@ public class WashingLine {
         this.isAvailable = true;
     }
 
-    public synchronized void enter() {
-        this.isAvailable = false;
+    public void enter() {
+        lock.lock();
+        try {
+            this.isAvailable = false;
+        } finally {
+            lock.unlock();
+        }
     }
 
-    public synchronized void wash(Car car) {
-        int washingTime = this.randomizer.getWashingTime() * 1000;
-        System.out.println(new Timestamp(System.currentTimeMillis()) + ": Car " + car.id
-                + " is being washed for " + washingTime + "ms.");
+    public void wash(Car car) {
+        lock.lock();
 
         try {
-            Thread.sleep(washingTime);
+            long washingTime = this.randomizer.getWashingTime() * 1000L;
+            System.out.println(new Timestamp(System.currentTimeMillis()) + ": Car " + car.id
+                    + " is being washed for " + washingTime + "ms.");
+
+            condition.await(washingTime, TimeUnit.MILLISECONDS);
+
+            System.out.println(new Timestamp(System.currentTimeMillis()) + ": Car " + car.id
+                    + " has been washed successfully.");
         } catch (Exception e) {
             System.out.println("Exception occurred washing the car: " + e.getMessage());
+        } finally {
+            lock.unlock();
         }
-
-        System.out.println(new Timestamp(System.currentTimeMillis()) + ": Car " + car.id
-                + " has been washed successfully.");
     }
 
-    public synchronized void leave() {
-        isAvailable = true;
+    public void leave() {
+        lock.lock();
+        try {
+            this.isAvailable = true;
+        } finally {
+            lock.unlock();
+        }
     }
 
     public boolean isAvailable() {

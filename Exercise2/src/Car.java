@@ -1,11 +1,15 @@
-public class Car extends Thread {
-    private static int counter = 1;
+import java.util.concurrent.locks.ReentrantLock;
 
-    private final CarWashPark carWashPark;
+public class Car implements Runnable {
+    private static int counter = 1;
 
     public final int id;
 
-    private boolean needsIndoorCleaning;
+
+    private final CarWashPark carWashPark;
+    private final ReentrantLock lock = new ReentrantLock();
+
+    private final boolean needsIndoorCleaning;
 
     public Car(CarWashPark carWashPark, boolean needsIndoorCleaning) {
         this.carWashPark = carWashPark;
@@ -27,13 +31,25 @@ public class Car extends Thread {
         this.cleanIndoor();
     }
 
-    private synchronized void wash() {
-        WashingLineCollection washingLines = carWashPark.getWashingLines();
-        washingLines.wash(this);
+    private void wash() {
+        lock.lock();
+
+        try {
+            WashingLineCollection washingLines = carWashPark.getWashingLines();
+            washingLines.wash(this);
+        } finally {
+            lock.unlock();
+        }
     }
 
-    private synchronized void cleanIndoor() {
-        IndoorCleaningBoxCollection indoorCleaningBoxes = carWashPark.getIndoorCleaningBoxes();
-        indoorCleaningBoxes.clean(this);
+    private void cleanIndoor() {
+        lock.lock();
+
+        try {
+            IndoorCleaningBoxCollection indoorCleaningBoxes = carWashPark.getIndoorCleaningBoxes();
+            indoorCleaningBoxes.clean(this);
+        } finally {
+            lock.unlock();
+        }
     }
 }

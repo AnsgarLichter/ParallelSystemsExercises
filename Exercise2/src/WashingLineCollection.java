@@ -1,17 +1,18 @@
 import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class WashingLineCollection {
-    private final WashParkRandomizer randomizer;
-
-    private final List<WashingLine> washingLines = new ArrayList<WashingLine>();
+    private final ReentrantLock lock = new ReentrantLock();
+    private final Condition condition = lock.newCondition();
+    private final List<WashingLine> washingLines = new ArrayList<>();
 
     public WashingLineCollection(int countOfWashingLines, WashParkRandomizer randomizer) {
-        this.randomizer = randomizer;
 
         for (int i = 0; i < countOfWashingLines; i++) {
-            washingLines.add(new WashingLine(this.randomizer));
+            washingLines.add(new WashingLine(randomizer));
         }
     }
 
@@ -24,36 +25,51 @@ public class WashingLineCollection {
         this.updateAvailableWashingLines();
     }
 
-    public synchronized WashingLine getWashingLine(Car car) {
-        while (!hasAvailableWashingLine()) {
-            System.out.println(
-                    new Timestamp(System.currentTimeMillis()) + ": All washing lines are occupied. Car " + car.id
-                            + " waits ...");
+    public WashingLine getWashingLine(Car car) {
+        lock.lock();
 
-            try {
-                wait();
-            } catch (InterruptedException e) {
-                System.out.println("Exception occurred waiting for an available washing line: " + e.getMessage());
+        try {
+            while (!hasAvailableWashingLine()) {
+                System.out.println(
+                        new Timestamp(System.currentTimeMillis()) + ": All washing lines are occupied. Car " + car.id
+                                + " waits ...");
+
+                condition.await();
             }
-        }
 
-        return getAvailableWashingLine();
+            return getAvailableWashingLine();
+        } catch (InterruptedException e) {
+            System.out.println("Exception occurred waiting for an available washing line: " + e.getMessage());
+            return null;
+        } finally {
+            lock.unlock();
+        }
     }
 
-    public synchronized boolean hasAvailableWashingLine() {
+    public boolean hasAvailableWashingLine() {
         return this.getAvailableWashingLine() != null;
     }
 
-    private synchronized WashingLine getAvailableWashingLine() {
-        return washingLines.stream()
-                .filter(washingLine -> washingLine.isAvailable())
-                .findFirst()
-                .orElse(null);
+    private WashingLine getAvailableWashingLine() {
+        lock.lock();
 
+        try {
+            return washingLines.stream()
+                    .filter(WashingLine::isAvailable)
+                    .findFirst()
+                    .orElse(null);
+        } finally {
+            lock.unlock();
+        }
     }
 
-    private synchronized void updateAvailableWashingLines() {
-        notify();
+    private void updateAvailableWashingLines() {
+        lock.lock();
+        try {
+            condition.signal();
+        } finally {
+            lock.unlock();
+        }
     }
 
 }
