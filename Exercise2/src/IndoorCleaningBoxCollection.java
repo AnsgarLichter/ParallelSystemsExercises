@@ -7,11 +7,12 @@ import java.util.concurrent.locks.ReentrantLock;
 public class IndoorCleaningBoxCollection {
     private final ReentrantLock lock = new ReentrantLock();
     private final Condition condition = lock.newCondition();
+    private final Synchronizer<IndoorCleaningBox> synchronizer = new Synchronizer<>(lock);
+    private final Synchronizer<Void> voidSynchronizer = new Synchronizer<>(lock);
 
     private final List<IndoorCleaningBox> indoorCleaningBoxes = new ArrayList<>();
 
     public IndoorCleaningBoxCollection(int countOfIndoorCleaningBoxes, WashParkRandomizer randomizer) {
-
         for (int i = 0; i < countOfIndoorCleaningBoxes; i++) {
             indoorCleaningBoxes.add(new IndoorCleaningBox(randomizer));
         }
@@ -27,24 +28,22 @@ public class IndoorCleaningBoxCollection {
     }
 
     public IndoorCleaningBox getIndoorCleaningBox(Car car) {
-        lock.lock();
+        return synchronizer.execute(() -> {
+            try {
+                while (!hasAvailableIndoorCleaningBox()) {
+                    System.out.println(
+                            new Timestamp(System.currentTimeMillis()) + ": All washing lines are occupied. Car " + car.id
+                                    + " waits ...");
 
-        try {
-            while (!hasAvailableIndoorCleaningBox()) {
-                System.out.println(
-                        new Timestamp(System.currentTimeMillis()) + ": All washing lines are occupied. Car " + car.id
-                                + " waits ...");
+                    condition.await();
+                }
 
-                condition.await();
+                return getAvailableIndoorCleaningBox();
+            } catch (InterruptedException e) {
+                System.out.println("Exception occurred waiting for an available washing line: " + e.getMessage());
+                return null;
             }
-
-            return getAvailableIndoorCleaningBox();
-        } catch (InterruptedException e) {
-            System.out.println("Exception occurred waiting for an available washing line: " + e.getMessage());
-            return null;
-        } finally {
-            lock.unlock();
-        }
+        });
     }
 
     public boolean hasAvailableIndoorCleaningBox() {
@@ -52,24 +51,18 @@ public class IndoorCleaningBoxCollection {
     }
 
     private IndoorCleaningBox getAvailableIndoorCleaningBox() {
-        lock.lock();
-
-        try {
-            return indoorCleaningBoxes.stream()
-                    .filter(IndoorCleaningBox::isAvailable)
-                    .findFirst()
-                    .orElse(null);
-        } finally {
-            lock.unlock();
-        }
+        return synchronizer.execute(() ->
+                indoorCleaningBoxes.stream()
+                        .filter(IndoorCleaningBox::isAvailable)
+                        .findFirst()
+                        .orElse(null)
+        );
     }
 
     private void updateAvailableIndoorCleaningBoxes() {
-        lock.lock();
-        try {
+        voidSynchronizer.execute(() -> {
             condition.signal();
-        } finally {
-            lock.unlock();
-        }
+            return null;
+        });
     }
 }

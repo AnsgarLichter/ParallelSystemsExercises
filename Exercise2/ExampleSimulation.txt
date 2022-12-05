@@ -1,686 +1,702 @@
-2022-12-04 16:07:03.767: We are currently in the 1. hour. We have in total 0 Cars this hour.
-2022-12-04 16:07:03.787: 3 Cars arrived at the wash park.
-2022-12-04 16:07:03.803: Car 2 is being washed for 10000ms.
-2022-12-04 16:07:03.803: Car 1 is being washed for 9000ms.
-2022-12-04 16:07:03.803: Car 3 is being cleaned for 10000ms.
-2022-12-04 16:07:08.81: We are currently in the 1. hour. We have in total 3 Cars this hour.
-2022-12-04 16:07:08.81: 5 Cars arrived at the wash park.
-2022-12-04 16:07:08.81: Car 4 is being washed for 5000ms.
-2022-12-04 16:07:08.81: Car 5 is being washed for 6000ms.
-2022-12-04 16:07:08.81: Car 6 is being cleaned for 5000ms.
-2022-12-04 16:07:08.81: Car 7 is being washed for 9000ms.
-2022-12-04 16:07:08.81: All washing lines are occupied. Car 8 waits ...
-2022-12-04 16:07:12.823: Car 1 has been washed successfully.
-2022-12-04 16:07:12.823: Car 8 is being washed for 6000ms.
-2022-12-04 16:07:13.813: Car 4 has been washed successfully.
-2022-12-04 16:07:13.813: We are currently in the 1. hour. We have in total 8 Cars this hour.
-2022-12-04 16:07:13.813: 3 Cars arrived at the wash park.
-2022-12-04 16:07:13.813: Car 6 has been cleaned successfully.
-2022-12-04 16:07:13.813: Car 6 is being washed for 8000ms.
-2022-12-04 16:07:13.813: All washing lines are occupied. Car 10 waits ...
-2022-12-04 16:07:13.813: Car 9 is being cleaned for 10000ms.
-2022-12-04 16:07:13.813: All washing lines are occupied. Car 11 waits ...
-2022-12-04 16:07:13.829: Car 2 has been washed successfully.
-2022-12-04 16:07:13.829: Car 3 has been cleaned successfully.
-2022-12-04 16:07:13.829: Car 10 is being washed for 9000ms.
-2022-12-04 16:07:13.829: All washing lines are occupied. Car 3 waits ...
-2022-12-04 16:07:14.819: Car 5 has been washed successfully.
-2022-12-04 16:07:14.819: Car 11 is being washed for 8000ms.
-2022-12-04 16:07:17.817: Car 7 has been washed successfully.
-2022-12-04 16:07:17.817: Car 3 is being washed for 5000ms.
-2022-12-04 16:07:18.827: We are currently in the 1. hour. We have in total 11 Cars this hour.
-2022-12-04 16:07:18.827: Car 8 has been washed successfully.
-2022-12-04 16:07:18.827: 3 Cars arrived at the wash park.
-2022-12-04 16:07:18.827: Car 12 is being cleaned for 15000ms.
-2022-12-04 16:07:18.827: Car 13 is being washed for 9000ms.
-2022-12-04 16:07:18.827: All washing lines are occupied. Car 14 waits ...
-2022-12-04 16:07:21.826: Car 6 has been washed successfully.
-2022-12-04 16:07:21.826: Car 14 is being washed for 6000ms.
-2022-12-04 16:07:22.829: Car 3 has been washed successfully.
-2022-12-04 16:07:22.829: Car 10 has been washed successfully.
-2022-12-04 16:07:22.829: Car 11 has been washed successfully.
-2022-12-04 16:07:23.821: Car 9 has been cleaned successfully.
-2022-12-04 16:07:23.821: Car 9 is being washed for 7000ms.
-2022-12-04 16:07:23.837: We are currently in the 1. hour. We have in total 14 Cars this hour.
-2022-12-04 16:07:23.837: 3 Cars arrived at the wash park.
-2022-12-04 16:07:23.837: Car 16 is being washed for 6000ms.
-2022-12-04 16:07:23.837: Car 15 is being cleaned for 15000ms.
-2022-12-04 16:07:23.837: Car 17 is being washed for 8000ms.
-2022-12-04 16:07:27.839: Car 13 has been washed successfully.
-2022-12-04 16:07:27.839: Car 14 has been washed successfully.
-2022-12-04 16:07:28.843: We are currently in the 1. hour. We have in total 17 Cars this hour.
-2022-12-04 16:07:28.843: 3 Cars arrived at the wash park.
-2022-12-04 16:07:28.843: Car 18 is being cleaned for 5000ms.
-2022-12-04 16:07:28.843: Car 20 is being washed for 10000ms.
-2022-12-04 16:07:28.843: Car 19 is being washed for 5000ms.
-2022-12-04 16:07:29.847: Car 16 has been washed successfully.
-2022-12-04 16:07:30.834: Car 9 has been washed successfully.
-2022-12-04 16:07:31.842: Car 17 has been washed successfully.
-2022-12-04 16:07:33.838: Car 12 has been cleaned successfully.
-2022-12-04 16:07:33.838: Car 12 is being washed for 7000ms.
-2022-12-04 16:07:33.854: We are currently in the 1. hour. We have in total 20 Cars this hour.
-2022-12-04 16:07:33.854: Car 19 has been washed successfully.
-2022-12-04 16:07:33.854: Car 18 has been cleaned successfully.
-2022-12-04 16:07:33.854: 3 Cars arrived at the wash park.
-2022-12-04 16:07:33.854: Car 18 is being washed for 6000ms.
-2022-12-04 16:07:33.854: Car 22 is being washed for 9000ms.
-2022-12-04 16:07:33.854: Car 21 is being cleaned for 15000ms.
-2022-12-04 16:07:33.854: Car 23 is being washed for 9000ms.
-2022-12-04 16:07:38.837: Car 15 has been cleaned successfully.
-2022-12-04 16:07:38.837: All washing lines are occupied. Car 15 waits ...
-2022-12-04 16:07:38.853: Car 20 has been washed successfully.
-2022-12-04 16:07:38.853: Car 15 is being washed for 6000ms.
-2022-12-04 16:07:38.868: We are currently in the 1. hour. We have in total 23 Cars this hour.
-2022-12-04 16:07:38.868: 5 Cars arrived at the wash park.
-2022-12-04 16:07:38.868: All washing lines are occupied. Car 25 waits ...
-2022-12-04 16:07:38.868: Car 24 is being cleaned for 15000ms.
-2022-12-04 16:07:38.868: All washing lines are occupied. Car 26 waits ...
-2022-12-04 16:07:38.869: Car 27 is being cleaned for 5000ms.
-2022-12-04 16:07:38.869: All washing lines are occupied. Car 28 waits ...
-2022-12-04 16:07:39.866: Car 18 has been washed successfully.
-2022-12-04 16:07:39.866: Car 25 is being washed for 10000ms.
-2022-12-04 16:07:40.848: Car 12 has been washed successfully.
-2022-12-04 16:07:40.848: Car 26 is being washed for 8000ms.
-2022-12-04 16:07:42.865: Car 22 has been washed successfully.
-2022-12-04 16:07:42.865: Car 23 has been washed successfully.
-2022-12-04 16:07:42.865: Car 28 is being washed for 8000ms.
-2022-12-04 16:07:43.877: Car 27 has been cleaned successfully.
-2022-12-04 16:07:43.877: We are currently in the 1. hour. We have in total 28 Cars this hour.
-2022-12-04 16:07:43.877: 4 Cars arrived at the wash park.
-2022-12-04 16:07:43.877: Car 27 is being washed for 6000ms.
-2022-12-04 16:07:43.877: Car 30 is being cleaned for 10000ms.
-2022-12-04 16:07:43.877: All washing lines are occupied. Car 29 waits ...
-2022-12-04 16:07:43.877: All washing lines are occupied. Car 31 waits ...
-2022-12-04 16:07:43.877: All washing lines are occupied. Car 32 waits ...
-2022-12-04 16:07:44.869: Car 15 has been washed successfully.
-2022-12-04 16:07:44.869: Car 29 is being washed for 10000ms.
-2022-12-04 16:07:48.855: Car 21 has been cleaned successfully.
-2022-12-04 16:07:48.855: Car 26 has been washed successfully.
-2022-12-04 16:07:48.855: All washing lines are occupied. Car 21 waits ...
-2022-12-04 16:07:48.855: Car 31 is being washed for 6000ms.
-2022-12-04 16:07:48.886: We are currently in the 1. hour. We have in total 32 Cars this hour.
-2022-12-04 16:07:48.886: 5 Cars arrived at the wash park.
-2022-12-04 16:07:48.886: All washing lines are occupied. Car 34 waits ...
-2022-12-04 16:07:48.886: Car 33 is being cleaned for 10000ms.
-2022-12-04 16:07:48.886: All washing lines are occupied. Car 35 waits ...
-2022-12-04 16:07:48.887: Car 36 is being cleaned for 5000ms.
-2022-12-04 16:07:48.887: All washing lines are occupied. Car 37 waits ...
-2022-12-04 16:07:49.878: Car 27 has been washed successfully.
-2022-12-04 16:07:49.878: Car 25 has been washed successfully.
-2022-12-04 16:07:49.878: Car 32 is being washed for 10000ms.
-2022-12-04 16:07:49.878: Car 21 is being washed for 10000ms.
-2022-12-04 16:07:50.873: Car 28 has been washed successfully.
-2022-12-04 16:07:50.873: Car 34 is being washed for 9000ms.
-2022-12-04 16:07:53.869: Car 24 has been cleaned successfully.
-2022-12-04 16:07:53.869: All washing lines are occupied. Car 24 waits ...
-2022-12-04 16:07:53.884: Car 30 has been cleaned successfully.
-2022-12-04 16:07:53.884: All washing lines are occupied. Car 30 waits ...
-2022-12-04 16:07:53.9: Car 36 has been cleaned successfully.
-2022-12-04 16:07:53.9: All washing lines are occupied. Car 36 waits ...
-2022-12-04 16:07:53.9: We are currently in the 1. hour. We have in total 37 Cars this hour.
-2022-12-04 16:07:53.9: 4 Cars arrived at the wash park.
-2022-12-04 16:07:53.9: All washing lines are occupied. Car 38 waits ...
-2022-12-04 16:07:53.9: Car 39 is being cleaned for 15000ms.
-2022-12-04 16:07:53.901: All washing lines are occupied. Car 40 waits ...
-2022-12-04 16:07:53.901: All washing lines are occupied. Car 41 waits ...
-2022-12-04 16:07:54.865: Car 31 has been washed successfully.
-2022-12-04 16:07:54.865: Car 35 is being washed for 7000ms.
-2022-12-04 16:07:54.881: Car 29 has been washed successfully.
-2022-12-04 16:07:54.881: Car 37 is being washed for 5000ms.
-2022-12-04 16:07:58.893: Car 33 has been cleaned successfully.
-2022-12-04 16:07:58.893: All washing lines are occupied. Car 33 waits ...
-2022-12-04 16:07:58.909: We are currently in the 1. hour. We have in total 41 Cars this hour.
-2022-12-04 16:07:58.909: 3 Cars arrived at the wash park.
-2022-12-04 16:07:58.909: All washing lines are occupied. Car 43 waits ...
-2022-12-04 16:07:58.909: Car 42 is being cleaned for 15000ms.
-2022-12-04 16:07:58.91: All washing lines are occupied. Car 44 waits ...
-2022-12-04 16:07:59.876: Car 34 has been washed successfully.
-2022-12-04 16:07:59.876: Car 24 is being washed for 9000ms.
-2022-12-04 16:07:59.892: Car 37 has been washed successfully.
-2022-12-04 16:07:59.892: Car 32 has been washed successfully.
-2022-12-04 16:07:59.892: Car 30 is being washed for 5000ms.
-2022-12-04 16:07:59.892: Car 21 has been washed successfully.
-2022-12-04 16:07:59.892: Car 36 is being washed for 5000ms.
-2022-12-04 16:07:59.892: Car 38 is being washed for 6000ms.
-2022-12-04 16:08:01.879: Car 35 has been washed successfully.
-2022-12-04 16:08:01.879: Car 40 is being washed for 9000ms.
-2022-12-04 16:08:03.925: We are currently in the 2. hour. We have in total 0 Cars this hour.
-2022-12-04 16:08:03.925: 5 Cars arrived at the wash park.
-2022-12-04 16:08:03.925: Car 48 is being cleaned for 15000ms.
-2022-12-04 16:08:03.925: All washing lines are occupied. Car 47 waits ...
-2022-12-04 16:08:03.925: All washing lines are occupied. Car 46 waits ...
-2022-12-04 16:08:03.925: All washing lines are occupied. Car 45 waits ...
-2022-12-04 16:08:03.925: All washing lines are occupied. Car 49 waits ...
-2022-12-04 16:08:04.895: Car 30 has been washed successfully.
-2022-12-04 16:08:04.895: Car 36 has been washed successfully.
-2022-12-04 16:08:04.895: Car 41 is being washed for 7000ms.
-2022-12-04 16:08:04.895: Car 33 is being washed for 6000ms.
-2022-12-04 16:08:05.897: Car 38 has been washed successfully.
-2022-12-04 16:08:05.897: Car 43 is being washed for 5000ms.
-2022-12-04 16:08:08.876: Car 24 has been washed successfully.
-2022-12-04 16:08:08.876: Car 44 is being washed for 8000ms.
-2022-12-04 16:08:08.906: Car 39 has been cleaned successfully.
-2022-12-04 16:08:08.906: All washing lines are occupied. Car 39 waits ...
-2022-12-04 16:08:08.937: We are currently in the 2. hour. We have in total 5 Cars this hour.
-2022-12-04 16:08:08.937: 6 Cars arrived at the wash park.
-2022-12-04 16:08:08.937: All washing lines are occupied. Car 50 waits ...
-2022-12-04 16:08:08.937: Car 52 is being cleaned for 5000ms.
-2022-12-04 16:08:08.937: All washing lines are occupied. Car 51 waits ...
-2022-12-04 16:08:08.938: All washing lines are occupied. Car 53 waits ...
-2022-12-04 16:08:08.938: All washing lines are occupied. Car 54 waits ...
-2022-12-04 16:08:08.938: All washing lines are occupied. Car 55 waits ...
-2022-12-04 16:08:10.893: Car 40 has been washed successfully.
-2022-12-04 16:08:10.893: Car 47 is being washed for 7000ms.
-2022-12-04 16:08:10.909: Car 33 has been washed successfully.
-2022-12-04 16:08:10.909: Car 43 has been washed successfully.
-2022-12-04 16:08:10.909: Car 46 is being washed for 9000ms.
-2022-12-04 16:08:10.909: Car 45 is being washed for 10000ms.
-2022-12-04 16:08:11.907: Car 41 has been washed successfully.
-2022-12-04 16:08:11.907: Car 49 is being washed for 8000ms.
-2022-12-04 16:08:13.911: Car 42 has been cleaned successfully.
-2022-12-04 16:08:13.911: All washing lines are occupied. Car 42 waits ...
-2022-12-04 16:08:13.943: We are currently in the 2. hour. We have in total 11 Cars this hour.
-2022-12-04 16:08:13.943: 5 Cars arrived at the wash park.
-2022-12-04 16:08:13.943: Car 52 has been cleaned successfully.
-2022-12-04 16:08:13.943: All washing lines are occupied. Car 52 waits ...
-2022-12-04 16:08:13.943: Car 56 is being cleaned for 5000ms.
-2022-12-04 16:08:13.943: All washing lines are occupied. Car 57 waits ...
-2022-12-04 16:08:13.943: All washing lines are occupied. Car 58 waits ...
-2022-12-04 16:08:13.943: All washing lines are occupied. Car 59 waits ...
-2022-12-04 16:08:13.943: Car 60 is being cleaned for 5000ms.
-2022-12-04 16:08:16.885: Car 44 has been washed successfully.
-2022-12-04 16:08:16.885: Car 39 is being washed for 5000ms.
-2022-12-04 16:08:17.902: Car 47 has been washed successfully.
-2022-12-04 16:08:17.902: Car 50 is being washed for 5000ms.
-2022-12-04 16:08:18.939: Car 48 has been cleaned successfully.
-2022-12-04 16:08:18.939: All washing lines are occupied. Car 48 waits ...
-2022-12-04 16:08:18.954: Car 56 has been cleaned successfully.
-2022-12-04 16:08:18.954: We are currently in the 2. hour. We have in total 16 Cars this hour.
-2022-12-04 16:08:18.954: Car 60 has been cleaned successfully.
-2022-12-04 16:08:18.954: 6 Cars arrived at the wash park.
-2022-12-04 16:08:18.954: All washing lines are occupied. Car 56 waits ...
-2022-12-04 16:08:18.954: All washing lines are occupied. Car 61 waits ...
-2022-12-04 16:08:18.954: All washing lines are occupied. Car 60 waits ...
-2022-12-04 16:08:18.954: All washing lines are occupied. Car 62 waits ...
-2022-12-04 16:08:18.955: All washing lines are occupied. Car 63 waits ...
-2022-12-04 16:08:18.955: Car 64 is being cleaned for 10000ms.
-2022-12-04 16:08:18.955: All washing lines are occupied. Car 65 waits ...
-2022-12-04 16:08:18.955: All washing lines are occupied. Car 66 waits ...
-2022-12-04 16:08:19.913: Car 49 has been washed successfully.
-2022-12-04 16:08:19.913: Car 46 has been washed successfully.
-2022-12-04 16:08:19.914: Car 51 is being washed for 6000ms.
-2022-12-04 16:08:19.914: Car 53 is being washed for 6000ms.
-2022-12-04 16:08:20.915: Car 45 has been washed successfully.
-2022-12-04 16:08:20.915: Car 54 is being washed for 10000ms.
-2022-12-04 16:08:21.899: Car 39 has been washed successfully.
-2022-12-04 16:08:21.899: Car 55 is being washed for 8000ms.
-2022-12-04 16:08:22.913: Car 50 has been washed successfully.
-2022-12-04 16:08:22.913: Car 42 is being washed for 8000ms.
-2022-12-04 16:08:23.968: We are currently in the 2. hour. We have in total 22 Cars this hour.
-2022-12-04 16:08:23.968: 4 Cars arrived at the wash park.
-2022-12-04 16:08:23.968: All washing lines are occupied. Car 67 waits ...
-2022-12-04 16:08:23.968: Car 68 is being cleaned for 10000ms.
-2022-12-04 16:08:23.968: All washing lines are occupied. Car 70 waits ...
-2022-12-04 16:08:23.968: All washing lines are occupied. Car 69 waits ...
-2022-12-04 16:08:25.92: Car 53 has been washed successfully.
-2022-12-04 16:08:25.92: Car 51 has been washed successfully.
-2022-12-04 16:08:25.92: Car 52 is being washed for 9000ms.
-2022-12-04 16:08:25.92: Car 57 is being washed for 6000ms.
-2022-12-04 16:08:28.963: Car 64 has been cleaned successfully.
-2022-12-04 16:08:28.963: All washing lines are occupied. Car 64 waits ...
-2022-12-04 16:08:28.978: We are currently in the 2. hour. We have in total 26 Cars this hour.
-2022-12-04 16:08:28.978: 4 Cars arrived at the wash park.
-2022-12-04 16:08:28.978: All washing lines are occupied. Car 73 waits ...
-2022-12-04 16:08:28.978: Car 72 is being cleaned for 10000ms.
-2022-12-04 16:08:28.978: All washing lines are occupied. Car 74 waits ...
-2022-12-04 16:08:28.978: All washing lines are occupied. Car 71 waits ...
-2022-12-04 16:08:29.912: Car 55 has been washed successfully.
-2022-12-04 16:08:29.912: Car 58 is being washed for 7000ms.
-2022-12-04 16:08:30.917: Car 54 has been washed successfully.
-2022-12-04 16:08:30.917: Car 42 has been washed successfully.
-2022-12-04 16:08:30.917: Car 59 is being washed for 10000ms.
-2022-12-04 16:08:30.917: Car 48 is being washed for 10000ms.
-2022-12-04 16:08:31.924: Car 57 has been washed successfully.
-2022-12-04 16:08:31.924: Car 56 is being washed for 7000ms.
-2022-12-04 16:08:33.971: Car 68 has been cleaned successfully.
-2022-12-04 16:08:33.971: All washing lines are occupied. Car 68 waits ...
-2022-12-04 16:08:33.986: We are currently in the 2. hour. We have in total 30 Cars this hour.
-2022-12-04 16:08:33.986: 6 Cars arrived at the wash park.
-2022-12-04 16:08:33.986: All washing lines are occupied. Car 75 waits ...
-2022-12-04 16:08:33.986: Car 76 is being cleaned for 10000ms.
-2022-12-04 16:08:33.986: All washing lines are occupied. Car 77 waits ...
-2022-12-04 16:08:33.986: All washing lines are occupied. Car 78 waits ...
-2022-12-04 16:08:33.986: All washing lines are occupied. Car 79 waits ...
-2022-12-04 16:08:33.986: Car 80 is being cleaned for 5000ms.
-2022-12-04 16:08:34.925: Car 52 has been washed successfully.
-2022-12-04 16:08:34.925: Car 61 is being washed for 9000ms.
-2022-12-04 16:08:36.918: Car 58 has been washed successfully.
-2022-12-04 16:08:36.918: Car 60 is being washed for 8000ms.
-2022-12-04 16:08:38.935: Car 56 has been washed successfully.
-2022-12-04 16:08:38.935: Car 62 is being washed for 8000ms.
-2022-12-04 16:08:38.982: Car 72 has been cleaned successfully.
-2022-12-04 16:08:38.982: All washing lines are occupied. Car 72 waits ...
-2022-12-04 16:08:38.997: We are currently in the 2. hour. We have in total 36 Cars this hour.
-2022-12-04 16:08:38.997: Car 80 has been cleaned successfully.
-2022-12-04 16:08:38.997: 7 Cars arrived at the wash park.
-2022-12-04 16:08:38.997: All washing lines are occupied. Car 80 waits ...
-2022-12-04 16:08:38.997: All washing lines are occupied. Car 81 waits ...
-2022-12-04 16:08:38.997: All washing lines are occupied. Car 82 waits ...
-2022-12-04 16:08:38.997: All washing lines are occupied. Car 83 waits ...
-2022-12-04 16:08:38.997: Car 84 is being cleaned for 5000ms.
-2022-12-04 16:08:38.997: All washing lines are occupied. Car 85 waits ...
-2022-12-04 16:08:38.997: All washing lines are occupied. Car 86 waits ...
-2022-12-04 16:08:38.997: All washing lines are occupied. Car 87 waits ...
-2022-12-04 16:08:40.923: Car 48 has been washed successfully.
-2022-12-04 16:08:40.923: Car 59 has been washed successfully.
-2022-12-04 16:08:40.923: Car 63 is being washed for 6000ms.
-2022-12-04 16:08:40.923: Car 65 is being washed for 9000ms.
-2022-12-04 16:08:43.93: Car 61 has been washed successfully.
-2022-12-04 16:08:43.93: Car 66 is being washed for 9000ms.
-2022-12-04 16:08:43.993: Car 76 has been cleaned successfully.
-2022-12-04 16:08:43.993: All washing lines are occupied. Car 76 waits ...
-2022-12-04 16:08:44.008: We are currently in the 2. hour. We have in total 43 Cars this hour.
-2022-12-04 16:08:44.008: Car 84 has been cleaned successfully.
-2022-12-04 16:08:44.008: 5 Cars arrived at the wash park.
-2022-12-04 16:08:44.008: All washing lines are occupied. Car 84 waits ...
-2022-12-04 16:08:44.008: Car 88 is being cleaned for 5000ms.
-2022-12-04 16:08:44.008: All washing lines are occupied. Car 89 waits ...
-2022-12-04 16:08:44.008: All washing lines are occupied. Car 90 waits ...
-2022-12-04 16:08:44.008: All washing lines are occupied. Car 91 waits ...
-2022-12-04 16:08:44.008: Car 92 is being cleaned for 5000ms.
-2022-12-04 16:08:44.93: Car 60 has been washed successfully.
-2022-12-04 16:08:44.93: Car 67 is being washed for 5000ms.
-2022-12-04 16:08:46.933: Car 63 has been washed successfully.
-2022-12-04 16:08:46.933: Car 70 is being washed for 8000ms.
-2022-12-04 16:08:46.949: Car 62 has been washed successfully.
-2022-12-04 16:08:46.949: Car 69 is being washed for 10000ms.
-2022-12-04 16:08:49.014: We are currently in the 2. hour. We have in total 48 Cars this hour.
-2022-12-04 16:08:49.014: Car 92 has been cleaned successfully.
-2022-12-04 16:08:49.014: 5 Cars arrived at the wash park.
-2022-12-04 16:08:49.014: Car 88 has been cleaned successfully.
-2022-12-04 16:08:49.014: All washing lines are occupied. Car 92 waits ...
-2022-12-04 16:08:49.014: All washing lines are occupied. Car 93 waits ...
-2022-12-04 16:08:49.014: All washing lines are occupied. Car 94 waits ...
-2022-12-04 16:08:49.014: All washing lines are occupied. Car 88 waits ...
-2022-12-04 16:08:49.014: All washing lines are occupied. Car 95 waits ...
-2022-12-04 16:08:49.014: Car 96 is being cleaned for 15000ms.
-2022-12-04 16:08:49.014: All washing lines are occupied. Car 97 waits ...
-2022-12-04 16:08:49.95: Car 67 has been washed successfully.
-2022-12-04 16:08:49.95: Car 65 has been washed successfully.
-2022-12-04 16:08:49.95: Car 64 is being washed for 9000ms.
-2022-12-04 16:08:49.95: Car 73 is being washed for 6000ms.
-2022-12-04 16:08:52.942: Car 66 has been washed successfully.
-2022-12-04 16:08:52.942: Car 74 is being washed for 10000ms.
-2022-12-04 16:08:54.03: We are currently in the 2. hour. We have in total 53 Cars this hour.
-2022-12-04 16:08:54.03: 5 Cars arrived at the wash park.
-2022-12-04 16:08:54.03: All washing lines are occupied. Car 98 waits ...
-2022-12-04 16:08:54.03: Car 100 is being cleaned for 5000ms.
-2022-12-04 16:08:54.03: All washing lines are occupied. Car 99 waits ...
-2022-12-04 16:08:54.03: All washing lines are occupied. Car 101 waits ...
-2022-12-04 16:08:54.03: All washing lines are occupied. Car 102 waits ...
-2022-12-04 16:08:54.939: Car 70 has been washed successfully.
-2022-12-04 16:08:54.939: Car 71 is being washed for 10000ms.
-2022-12-04 16:08:55.958: Car 73 has been washed successfully.
-2022-12-04 16:08:55.958: Car 68 is being washed for 6000ms.
-2022-12-04 16:08:56.955: Car 69 has been washed successfully.
-2022-12-04 16:08:56.955: Car 75 is being washed for 8000ms.
-2022-12-04 16:08:58.962: Car 64 has been washed successfully.
-2022-12-04 16:08:58.962: Car 77 is being washed for 9000ms.
-2022-12-04 16:08:59.04: We are currently in the 2. hour. We have in total 58 Cars this hour.
-2022-12-04 16:08:59.04: Car 100 has been cleaned successfully.
-2022-12-04 16:08:59.04: 5 Cars arrived at the wash park.
-2022-12-04 16:08:59.04: All washing lines are occupied. Car 100 waits ...
-2022-12-04 16:08:59.04: All washing lines are occupied. Car 105 waits ...
-2022-12-04 16:08:59.04: Car 104 is being cleaned for 5000ms.
-2022-12-04 16:08:59.04: All washing lines are occupied. Car 103 waits ...
-2022-12-04 16:08:59.04: All washing lines are occupied. Car 106 waits ...
-2022-12-04 16:08:59.04: All washing lines are occupied. Car 107 waits ...
-2022-12-04 16:09:01.964: Car 68 has been washed successfully.
-2022-12-04 16:09:01.964: Car 78 is being washed for 5000ms.
-2022-12-04 16:09:02.954: Car 74 has been washed successfully.
-2022-12-04 16:09:02.954: Car 79 is being washed for 5000ms.
-2022-12-04 16:09:04.029: Car 96 has been cleaned successfully.
-2022-12-04 16:09:04.029: All washing lines are occupied. Car 96 waits ...
-2022-12-04 16:09:04.043: We are currently in the 3. hour. We have in total 0 Cars this hour.
-2022-12-04 16:09:04.043: Car 104 has been cleaned successfully.
-2022-12-04 16:09:04.043: 4 Cars arrived at the wash park.
-2022-12-04 16:09:04.043: All washing lines are occupied. Car 104 waits ...
-2022-12-04 16:09:04.043: Car 108 is being cleaned for 15000ms.
-2022-12-04 16:09:04.043: Car 109 is being cleaned for 15000ms.
-2022-12-04 16:09:04.044: Car 110 is being cleaned for 15000ms.
-2022-12-04 16:09:04.044: Car 111 is being cleaned for 5000ms.
-2022-12-04 16:09:04.951: Car 71 has been washed successfully.
-2022-12-04 16:09:04.951: Car 72 is being washed for 7000ms.
-2022-12-04 16:09:04.967: Car 75 has been washed successfully.
-2022-12-04 16:09:04.967: Car 80 is being washed for 8000ms.
-2022-12-04 16:09:06.976: Car 78 has been washed successfully.
-2022-12-04 16:09:06.976: Car 81 is being washed for 8000ms.
-2022-12-04 16:09:07.964: Car 79 has been washed successfully.
-2022-12-04 16:09:07.964: Car 77 has been washed successfully.
-2022-12-04 16:09:07.964: Car 82 is being washed for 7000ms.
-2022-12-04 16:09:07.964: Car 83 is being washed for 8000ms.
-2022-12-04 16:09:09.049: We are currently in the 3. hour. We have in total 4 Cars this hour.
-2022-12-04 16:09:09.049: Car 111 has been cleaned successfully.
-2022-12-04 16:09:09.049: 3 Cars arrived at the wash park.
-2022-12-04 16:09:09.049: All washing lines are occupied. Car 111 waits ...
-2022-12-04 16:09:09.049: Car 114 is being cleaned for 15000ms.
-2022-12-04 16:09:09.049: All washing lines are occupied. Car 112 waits ...
-2022-12-04 16:09:09.05: All washing lines are occupied. Car 113 waits ...
-2022-12-04 16:09:11.966: Car 72 has been washed successfully.
-2022-12-04 16:09:11.966: Car 85 is being washed for 8000ms.
-2022-12-04 16:09:12.969: Car 80 has been washed successfully.
-2022-12-04 16:09:12.969: Car 86 is being washed for 8000ms.
-2022-12-04 16:09:14.063: We are currently in the 3. hour. We have in total 7 Cars this hour.
-2022-12-04 16:09:14.063: 5 Cars arrived at the wash park.
-2022-12-04 16:09:14.063: All washing lines are occupied. Car 115 waits ...
-2022-12-04 16:09:14.063: All washing lines are occupied. Car 117 waits ...
-2022-12-04 16:09:14.063: All washing lines are occupied. Car 116 waits ...
-2022-12-04 16:09:14.063: All washing lines are occupied. Car 118 waits ...
-2022-12-04 16:09:14.063: All washing lines are occupied. Car 119 waits ...
-2022-12-04 16:09:14.974: Car 82 has been washed successfully.
-2022-12-04 16:09:14.975: Car 87 is being washed for 8000ms.
-2022-12-04 16:09:14.998: Car 81 has been washed successfully.
-2022-12-04 16:09:14.998: Car 76 is being washed for 5000ms.
-2022-12-04 16:09:15.967: Car 83 has been washed successfully.
-2022-12-04 16:09:15.967: Car 84 is being washed for 7000ms.
-2022-12-04 16:09:19.056: Car 109 has been cleaned successfully.
-2022-12-04 16:09:19.056: All washing lines are occupied. Car 109 waits ...
-2022-12-04 16:09:19.056: Car 112 is being cleaned for 15000ms.
-2022-12-04 16:09:19.056: Car 110 has been cleaned successfully.
-2022-12-04 16:09:19.056: Car 108 has been cleaned successfully.
-2022-12-04 16:09:19.056: All washing lines are occupied. Car 110 waits ...
-2022-12-04 16:09:19.056: All washing lines are occupied. Car 108 waits ...
-2022-12-04 16:09:19.072: We are currently in the 3. hour. We have in total 12 Cars this hour.
-2022-12-04 16:09:19.072: 3 Cars arrived at the wash park.
-2022-12-04 16:09:19.072: Car 120 is being cleaned for 5000ms.
-2022-12-04 16:09:19.072: Car 121 is being cleaned for 5000ms.
-2022-12-04 16:09:19.072: All washing lines are occupied. Car 122 waits ...
-2022-12-04 16:09:19.976: Car 85 has been washed successfully.
-2022-12-04 16:09:19.976: Car 89 is being washed for 7000ms.
-2022-12-04 16:09:20.007: Car 76 has been washed successfully.
-2022-12-04 16:09:20.007: Car 90 is being washed for 7000ms.
-2022-12-04 16:09:20.99: Car 86 has been washed successfully.
-2022-12-04 16:09:20.99: Car 91 is being washed for 10000ms.
-2022-12-04 16:09:22.981: Car 87 has been washed successfully.
-2022-12-04 16:09:22.981: Car 84 has been washed successfully.
-2022-12-04 16:09:22.981: Car 92 is being washed for 6000ms.
-2022-12-04 16:09:22.981: Car 93 is being washed for 9000ms.
-2022-12-04 16:09:24.057: Car 114 has been cleaned successfully.
-2022-12-04 16:09:24.057: All washing lines are occupied. Car 114 waits ...
-2022-12-04 16:09:24.072: Car 120 has been cleaned successfully.
-2022-12-04 16:09:24.072: Car 121 has been cleaned successfully.
-2022-12-04 16:09:24.072: All washing lines are occupied. Car 120 waits ...
-2022-12-04 16:09:24.072: We are currently in the 3. hour. We have in total 15 Cars this hour.
-2022-12-04 16:09:24.072: All washing lines are occupied. Car 121 waits ...
-2022-12-04 16:09:24.072: 4 Cars arrived at the wash park.
-2022-12-04 16:09:24.072: Car 123 is being cleaned for 15000ms.
-2022-12-04 16:09:24.072: Car 124 is being cleaned for 5000ms.
-2022-12-04 16:09:24.072: Car 125 is being cleaned for 5000ms.
-2022-12-04 16:09:24.072: All washing lines are occupied. Car 126 waits ...
-2022-12-04 16:09:26.99: Car 89 has been washed successfully.
-2022-12-04 16:09:26.99: Car 94 is being washed for 7000ms.
-2022-12-04 16:09:27.021: Car 90 has been washed successfully.
-2022-12-04 16:09:27.021: Car 88 is being washed for 10000ms.
-2022-12-04 16:09:28.994: Car 92 has been washed successfully.
-2022-12-04 16:09:28.994: Car 95 is being washed for 7000ms.
-2022-12-04 16:09:29.086: Car 124 has been cleaned successfully.
-2022-12-04 16:09:29.086: Car 125 has been cleaned successfully.
-2022-12-04 16:09:29.086: All washing lines are occupied. Car 124 waits ...
-2022-12-04 16:09:29.086: We are currently in the 3. hour. We have in total 19 Cars this hour.
-2022-12-04 16:09:29.086: All washing lines are occupied. Car 125 waits ...
-2022-12-04 16:09:29.086: 3 Cars arrived at the wash park.
-2022-12-04 16:09:29.086: Car 127 is being cleaned for 5000ms.
-2022-12-04 16:09:29.086: Car 128 is being cleaned for 10000ms.
-2022-12-04 16:09:29.086: All washing lines are occupied. Car 129 waits ...
-2022-12-04 16:09:31.003: Car 91 has been washed successfully.
-2022-12-04 16:09:31.003: Car 97 is being washed for 7000ms.
-2022-12-04 16:09:31.99: Car 93 has been washed successfully.
-2022-12-04 16:09:31.99: Car 98 is being washed for 9000ms.
-2022-12-04 16:09:33.993: Car 94 has been washed successfully.
-2022-12-04 16:09:33.993: Car 99 is being washed for 8000ms.
-2022-12-04 16:09:34.071: Car 112 has been cleaned successfully.
-2022-12-04 16:09:34.071: All washing lines are occupied. Car 112 waits ...
-2022-12-04 16:09:34.087: We are currently in the 3. hour. We have in total 22 Cars this hour.
-2022-12-04 16:09:34.087: 5 Cars arrived at the wash park.
-2022-12-04 16:09:34.087: Car 127 has been cleaned successfully.
-2022-12-04 16:09:34.087: All washing lines are occupied. Car 127 waits ...
-2022-12-04 16:09:34.087: Car 130 is being cleaned for 5000ms.
-2022-12-04 16:09:34.087: Car 131 is being cleaned for 10000ms.
-2022-12-04 16:09:34.087: All washing lines are occupied. Car 132 waits ...
-2022-12-04 16:09:34.087: All washing lines are occupied. Car 133 waits ...
-2022-12-04 16:09:34.087: All washing lines are occupied. Car 134 waits ...
-2022-12-04 16:09:35.999: Car 95 has been washed successfully.
-2022-12-04 16:09:35.999: Car 101 is being washed for 8000ms.
-2022-12-04 16:09:37.035: Car 88 has been washed successfully.
-2022-12-04 16:09:37.035: Car 102 is being washed for 7000ms.
-2022-12-04 16:09:38.017: Car 97 has been washed successfully.
-2022-12-04 16:09:38.017: Car 100 is being washed for 10000ms.
-2022-12-04 16:09:39.075: Car 123 has been cleaned successfully.
-2022-12-04 16:09:39.075: All washing lines are occupied. Car 123 waits ...
-2022-12-04 16:09:39.09: Car 128 has been cleaned successfully.
-2022-12-04 16:09:39.09: We are currently in the 3. hour. We have in total 27 Cars this hour.
-2022-12-04 16:09:39.09: Car 130 has been cleaned successfully.
-2022-12-04 16:09:39.09: All washing lines are occupied. Car 128 waits ...
-2022-12-04 16:09:39.09: 3 Cars arrived at the wash park.
-2022-12-04 16:09:39.09: All washing lines are occupied. Car 130 waits ...
-2022-12-04 16:09:39.09: Car 136 is being cleaned for 15000ms.
-2022-12-04 16:09:39.09: Car 135 is being cleaned for 5000ms.
-2022-12-04 16:09:39.09: Car 137 is being cleaned for 15000ms.
-2022-12-04 16:09:40.995: Car 98 has been washed successfully.
-2022-12-04 16:09:40.995: Car 105 is being washed for 6000ms.
-2022-12-04 16:09:42.002: Car 99 has been washed successfully.
-2022-12-04 16:09:42.002: Car 103 is being washed for 6000ms.
-2022-12-04 16:09:44.002: Car 101 has been washed successfully.
-2022-12-04 16:09:44.002: Car 106 is being washed for 10000ms.
-2022-12-04 16:09:44.049: Car 102 has been washed successfully.
-2022-12-04 16:09:44.049: Car 107 is being washed for 9000ms.
-2022-12-04 16:09:44.096: Car 131 has been cleaned successfully.
-2022-12-04 16:09:44.096: Car 135 has been cleaned successfully.
-2022-12-04 16:09:44.096: We are currently in the 3. hour. We have in total 30 Cars this hour.
-2022-12-04 16:09:44.096: All washing lines are occupied. Car 131 waits ...
-2022-12-04 16:09:44.096: 4 Cars arrived at the wash park.
-2022-12-04 16:09:44.096: All washing lines are occupied. Car 135 waits ...
-2022-12-04 16:09:44.096: Car 138 is being cleaned for 15000ms.
-2022-12-04 16:09:44.096: Car 139 is being cleaned for 10000ms.
-2022-12-04 16:09:44.096: All washing lines are occupied. Car 140 waits ...
-2022-12-04 16:09:44.096: All washing lines are occupied. Car 141 waits ...
-2022-12-04 16:09:46.999: Car 105 has been washed successfully.
-2022-12-04 16:09:46.999: Car 96 is being washed for 7000ms.
-2022-12-04 16:09:48.015: Car 103 has been washed successfully.
-2022-12-04 16:09:48.015: Car 104 is being washed for 7000ms.
-2022-12-04 16:09:48.03: Car 100 has been washed successfully.
-2022-12-04 16:09:48.03: Car 111 is being washed for 7000ms.
-2022-12-04 16:09:49.097: We are currently in the 3. hour. We have in total 34 Cars this hour.
-2022-12-04 16:09:49.097: 5 Cars arrived at the wash park.
-2022-12-04 16:09:49.097: All washing lines are occupied. Car 142 waits ...
-2022-12-04 16:09:49.097: All washing lines are occupied. Car 143 waits ...
-2022-12-04 16:09:49.097: All washing lines are occupied. Car 144 waits ...
-2022-12-04 16:09:49.097: All washing lines are occupied. Car 145 waits ...
-2022-12-04 16:09:49.097: All washing lines are occupied. Car 146 waits ...
-2022-12-04 16:09:53.056: Car 107 has been washed successfully.
-2022-12-04 16:09:53.056: Car 113 is being washed for 9000ms.
-2022-12-04 16:09:54.002: Car 96 has been washed successfully.
-2022-12-04 16:09:54.002: Car 115 is being washed for 5000ms.
-2022-12-04 16:09:54.018: Car 106 has been washed successfully.
-2022-12-04 16:09:54.018: Car 117 is being washed for 5000ms.
-2022-12-04 16:09:54.098: Car 139 has been cleaned successfully.
-2022-12-04 16:09:54.098: Car 137 has been cleaned successfully.
-2022-12-04 16:09:54.098: Car 136 has been cleaned successfully.
-2022-12-04 16:09:54.098: All washing lines are occupied. Car 139 waits ...
-2022-12-04 16:09:54.098: All washing lines are occupied. Car 137 waits ...
-2022-12-04 16:09:54.098: All washing lines are occupied. Car 136 waits ...
-2022-12-04 16:09:54.114: We are currently in the 3. hour. We have in total 39 Cars this hour.
-2022-12-04 16:09:54.114: 4 Cars arrived at the wash park.
-2022-12-04 16:09:54.114: Car 148 is being cleaned for 10000ms.
-2022-12-04 16:09:54.114: Car 147 is being cleaned for 5000ms.
-2022-12-04 16:09:54.114: Car 149 is being cleaned for 15000ms.
-2022-12-04 16:09:54.114: All washing lines are occupied. Car 150 waits ...
-2022-12-04 16:09:55.023: Car 104 has been washed successfully.
-2022-12-04 16:09:55.023: Car 116 is being washed for 5000ms.
-2022-12-04 16:09:55.039: Car 111 has been washed successfully.
-2022-12-04 16:09:55.039: Car 118 is being washed for 10000ms.
-2022-12-04 16:09:59.014: Car 115 has been washed successfully.
-2022-12-04 16:09:59.014: All washing lines are occupied. Car 115 waits ...
-2022-12-04 16:09:59.014: Car 119 is being washed for 8000ms.
-2022-12-04 16:09:59.029: Car 117 has been washed successfully.
-2022-12-04 16:09:59.029: All washing lines are occupied. Car 117 waits ...
-2022-12-04 16:09:59.029: Car 109 is being washed for 6000ms.
-2022-12-04 16:09:59.107: Car 138 has been cleaned successfully.
-2022-12-04 16:09:59.107: All washing lines are occupied. Car 138 waits ...
-2022-12-04 16:09:59.107: Car 115 is being cleaned for 10000ms.
-2022-12-04 16:09:59.122: Car 147 has been cleaned successfully.
-2022-12-04 16:09:59.122: We are currently in the 3. hour. We have in total 43 Cars this hour.
-2022-12-04 16:09:59.122: All washing lines are occupied. Car 147 waits ...
-2022-12-04 16:09:59.122: Car 117 is being cleaned for 5000ms.
-2022-12-04 16:09:59.122: 5 Cars arrived at the wash park.
-2022-12-04 16:09:59.122: All washing lines are occupied. Car 151 waits ...
-2022-12-04 16:09:59.122: All washing lines are occupied. Car 152 waits ...
-2022-12-04 16:09:59.122: All washing lines are occupied. Car 153 waits ...
-2022-12-04 16:09:59.123: All washing lines are occupied. Car 154 waits ...
-2022-12-04 16:09:59.123: All washing lines are occupied. Car 155 waits ...
-2022-12-04 16:10:00.038: Car 116 has been washed successfully.
-2022-12-04 16:10:00.038: All washing lines are occupied. Car 116 waits ...
-2022-12-04 16:10:00.038: Car 110 is being washed for 8000ms.
-2022-12-04 16:10:02.069: Car 113 has been washed successfully.
-2022-12-04 16:10:02.069: All washing lines are occupied. Car 113 waits ...
-2022-12-04 16:10:02.069: Car 108 is being washed for 6000ms.
-2022-12-04 16:10:04.124: Car 117 has been cleaned successfully.
-2022-12-04 16:10:04.124: Car 148 has been cleaned successfully.
-2022-12-04 16:10:04.124: All washing lines are occupied. Car 148 waits ...
-2022-12-04 16:10:04.124: Car 113 is being cleaned for 5000ms.
-2022-12-04 16:10:04.124: Car 116 is being cleaned for 10000ms.
-2022-12-04 16:10:05.038: Car 109 has been washed successfully.
-2022-12-04 16:10:05.038: Car 122 is being washed for 8000ms.
-2022-12-04 16:10:05.054: Car 118 has been washed successfully.
-2022-12-04 16:10:05.054: All washing lines are occupied. Car 118 waits ...
-2022-12-04 16:10:05.054: Car 114 is being washed for 10000ms.
-2022-12-04 16:10:07.022: Car 119 has been washed successfully.
-2022-12-04 16:10:07.022: All washing lines are occupied. Car 119 waits ...
-2022-12-04 16:10:07.022: Car 120 is being washed for 7000ms.
-2022-12-04 16:10:08.042: Car 110 has been washed successfully.
-2022-12-04 16:10:08.042: Car 121 is being washed for 6000ms.
-2022-12-04 16:10:08.074: Car 108 has been washed successfully.
-2022-12-04 16:10:08.074: Car 126 is being washed for 5000ms.
-2022-12-04 16:10:09.116: Car 149 has been cleaned successfully.
-2022-12-04 16:10:09.116: Car 115 has been cleaned successfully.
-2022-12-04 16:10:09.116: All washing lines are occupied. Car 149 waits ...
-2022-12-04 16:10:09.116: Car 118 is being cleaned for 15000ms.
-2022-12-04 16:10:09.116: Car 119 is being cleaned for 5000ms.
-2022-12-04 16:10:09.132: Car 113 has been cleaned successfully.
-2022-12-04 16:10:13.051: Car 122 has been washed successfully.
-2022-12-04 16:10:13.051: Car 122 is being cleaned for 10000ms.
-2022-12-04 16:10:13.051: Car 124 is being washed for 6000ms.
-2022-12-04 16:10:13.083: Car 126 has been washed successfully.
-2022-12-04 16:10:13.083: All washing lines are occupied. Car 126 waits ...
-2022-12-04 16:10:13.083: Car 125 is being washed for 8000ms.
-2022-12-04 16:10:14.037: Car 120 has been washed successfully.
-2022-12-04 16:10:14.037: Car 129 is being washed for 9000ms.
-2022-12-04 16:10:14.053: Car 121 has been washed successfully.
-2022-12-04 16:10:14.053: Car 112 is being washed for 9000ms.
-2022-12-04 16:10:14.131: Car 116 has been cleaned successfully.
-2022-12-04 16:10:14.131: Car 119 has been cleaned successfully.
-2022-12-04 16:10:14.131: Car 126 is being cleaned for 10000ms.
-2022-12-04 16:10:15.068: Car 114 has been washed successfully.
-2022-12-04 16:10:15.068: Car 127 is being washed for 6000ms.
-2022-12-04 16:10:19.065: Car 124 has been washed successfully.
-2022-12-04 16:10:19.065: Car 132 is being washed for 5000ms.
-2022-12-04 16:10:21.074: Car 127 has been washed successfully.
-2022-12-04 16:10:21.074: Car 133 is being washed for 8000ms.
-2022-12-04 16:10:21.089: Car 125 has been washed successfully.
-2022-12-04 16:10:21.089: Car 134 is being washed for 6000ms.
-2022-12-04 16:10:23.048: Car 129 has been washed successfully.
-2022-12-04 16:10:23.048: Car 129 is being cleaned for 15000ms.
-2022-12-04 16:10:23.048: Car 123 is being washed for 9000ms.
-2022-12-04 16:10:23.063: Car 112 has been washed successfully.
-2022-12-04 16:10:23.063: Car 122 has been cleaned successfully.
-2022-12-04 16:10:23.063: Car 128 is being washed for 10000ms.
-2022-12-04 16:10:24.074: Car 132 has been washed successfully.
-2022-12-04 16:10:24.074: Car 130 is being washed for 5000ms.
-2022-12-04 16:10:24.074: Car 132 is being cleaned for 15000ms.
-2022-12-04 16:10:24.121: Car 118 has been cleaned successfully.
-2022-12-04 16:10:24.136: Car 126 has been cleaned successfully.
-2022-12-04 16:10:27.102: Car 134 has been washed successfully.
-2022-12-04 16:10:27.102: Car 131 is being washed for 9000ms.
-2022-12-04 16:10:27.102: Car 134 is being cleaned for 5000ms.
-2022-12-04 16:10:29.087: Car 133 has been washed successfully.
-2022-12-04 16:10:29.087: Car 130 has been washed successfully.
-2022-12-04 16:10:29.087: Car 135 is being washed for 9000ms.
-2022-12-04 16:10:29.087: Car 133 is being cleaned for 15000ms.
-2022-12-04 16:10:29.087: Car 140 is being washed for 7000ms.
-2022-12-04 16:10:32.059: Car 123 has been washed successfully.
-2022-12-04 16:10:32.059: Car 141 is being washed for 8000ms.
-2022-12-04 16:10:32.105: Car 134 has been cleaned successfully.
-2022-12-04 16:10:33.074: Car 128 has been washed successfully.
-2022-12-04 16:10:33.074: Car 142 is being washed for 6000ms.
-2022-12-04 16:10:36.095: Car 140 has been washed successfully.
-2022-12-04 16:10:36.095: Car 140 is being cleaned for 5000ms.
-2022-12-04 16:10:36.095: Car 143 is being washed for 10000ms.
-2022-12-04 16:10:36.111: Car 131 has been washed successfully.
-2022-12-04 16:10:36.111: Car 144 is being washed for 6000ms.
-2022-12-04 16:10:38.05: Car 129 has been cleaned successfully.
-2022-12-04 16:10:38.098: Car 135 has been washed successfully.
-2022-12-04 16:10:38.098: Car 145 is being washed for 6000ms.
-2022-12-04 16:10:39.082: Car 142 has been washed successfully.
-2022-12-04 16:10:39.082: Car 142 is being cleaned for 10000ms.
-2022-12-04 16:10:39.082: Car 146 is being washed for 5000ms.
-2022-12-04 16:10:39.082: Car 132 has been cleaned successfully.
-2022-12-04 16:10:40.06: Car 141 has been washed successfully.
-2022-12-04 16:10:40.06: Car 141 is being cleaned for 5000ms.
-2022-12-04 16:10:40.06: Car 139 is being washed for 7000ms.
-2022-12-04 16:10:41.109: Car 140 has been cleaned successfully.
-2022-12-04 16:10:42.127: Car 144 has been washed successfully.
-2022-12-04 16:10:42.127: Car 144 is being cleaned for 15000ms.
-2022-12-04 16:10:42.127: Car 137 is being washed for 10000ms.
-2022-12-04 16:10:44.09: Car 133 has been cleaned successfully.
-2022-12-04 16:10:44.09: Car 146 has been washed successfully.
-2022-12-04 16:10:44.09: Car 146 is being cleaned for 10000ms.
-2022-12-04 16:10:44.09: Car 136 is being washed for 7000ms.
-2022-12-04 16:10:44.106: Car 145 has been washed successfully.
-2022-12-04 16:10:44.106: All washing lines are occupied. Car 145 waits ...
-2022-12-04 16:10:44.106: Car 150 is being washed for 5000ms.
-2022-12-04 16:10:45.063: Car 141 has been cleaned successfully.
-2022-12-04 16:10:45.063: Car 145 is being cleaned for 10000ms.
-2022-12-04 16:10:46.11: Car 143 has been washed successfully.
-2022-12-04 16:10:46.11: All washing lines are occupied. Car 143 waits ...
-2022-12-04 16:10:46.11: Car 138 is being washed for 8000ms.
-2022-12-04 16:10:47.066: Car 139 has been washed successfully.
-2022-12-04 16:10:47.066: Car 147 is being washed for 5000ms.
-2022-12-04 16:10:49.085: Car 142 has been cleaned successfully.
-2022-12-04 16:10:49.085: Car 143 is being cleaned for 10000ms.
-2022-12-04 16:10:49.117: Car 150 has been washed successfully.
-2022-12-04 16:10:49.117: All washing lines are occupied. Car 150 waits ...
-2022-12-04 16:10:49.117: Car 151 is being washed for 7000ms.
-2022-12-04 16:10:51.097: Car 136 has been washed successfully.
-2022-12-04 16:10:51.097: Car 152 is being washed for 8000ms.
-2022-12-04 16:10:52.072: Car 147 has been washed successfully.
-2022-12-04 16:10:52.072: Car 153 is being washed for 8000ms.
-2022-12-04 16:10:52.134: Car 137 has been washed successfully.
-2022-12-04 16:10:52.134: Car 154 is being washed for 8000ms.
-2022-12-04 16:10:54.1: Car 146 has been cleaned successfully.
-2022-12-04 16:10:54.1: Car 150 is being cleaned for 5000ms.
-2022-12-04 16:10:54.115: Car 138 has been washed successfully.
-2022-12-04 16:10:54.115: Car 155 is being washed for 10000ms.
-2022-12-04 16:10:55.073: Car 145 has been cleaned successfully.
-2022-12-04 16:10:56.135: Car 151 has been washed successfully.
-2022-12-04 16:10:56.135: Car 151 is being cleaned for 15000ms.
-2022-12-04 16:10:56.135: Car 148 is being washed for 6000ms.
-2022-12-04 16:10:57.14: Car 144 has been cleaned successfully.
-2022-12-04 16:10:59.087: Car 143 has been cleaned successfully.
-2022-12-04 16:10:59.103: Car 152 has been washed successfully.
-2022-12-04 16:10:59.103: Car 150 has been cleaned successfully.
-2022-12-04 16:10:59.103: Car 152 is being cleaned for 10000ms.
-2022-12-04 16:10:59.103: Car 149 is being washed for 9000ms.
-2022-12-04 16:11:00.08: Car 153 has been washed successfully.
-2022-12-04 16:11:00.08: Car 153 is being cleaned for 5000ms.
-2022-12-04 16:11:00.141: Car 154 has been washed successfully.
-2022-12-04 16:11:00.141: Car 154 is being cleaned for 5000ms.
-2022-12-04 16:11:02.144: Car 148 has been washed successfully.
-2022-12-04 16:11:04.118: Car 155 has been washed successfully.
-2022-12-04 16:11:04.118: All washing lines are occupied. Car 155 waits ...
-2022-12-04 16:11:05.085: Car 153 has been cleaned successfully.
-2022-12-04 16:11:05.085: Car 155 is being cleaned for 5000ms.
-2022-12-04 16:11:05.153: Car 154 has been cleaned successfully.
-2022-12-04 16:11:08.117: Car 149 has been washed successfully.
-2022-12-04 16:11:09.109: Car 152 has been cleaned successfully.
-2022-12-04 16:11:10.1: Car 155 has been cleaned successfully.
-2022-12-04 16:11:11.145: Car 151 has been cleaned successfully.
+2022-12-05 17:59:53.606: We are currently in the 1. hour. We have in total 0 Cars this hour.
+2022-12-05 17:59:53.637: 3 Cars arrived at the wash park.
+2022-12-05 17:59:53.655: Car 3 is being cleaned for 5000ms.
+2022-12-05 17:59:53.655: Car 2 is being washed for 8000ms.
+2022-12-05 17:59:58.606: We are currently in the 1. hour. We have in total 3 Cars this hour.
+2022-12-05 17:59:58.606: 4 Cars arrived at the wash park.
+2022-12-05 17:59:58.606: Car 4 is being washed for 5000ms.
+2022-12-05 17:59:58.607: Car 5 is being washed for 8000ms.
+2022-12-05 17:59:58.607: Car 6 is being cleaned for 15000ms.
+2022-12-05 17:59:58.607: Car 7 is being washed for 5000ms.
+2022-12-05 17:59:58.683: Car 3 has been cleaned successfully.
+2022-12-05 17:59:58.684: Car 3 is being washed for 10000ms.
+2022-12-05 18:00:01.673: Car 2 has been washed successfully.
+2022-12-05 18:00:01.673: Car 1 is being washed for 9000ms.
+2022-12-05 18:00:03.611: Car 7 has been washed successfully.
+2022-12-05 18:00:03.611: We are currently in the 1. hour. We have in total 7 Cars this hour.
+2022-12-05 18:00:03.611: Car 4 has been washed successfully.
+2022-12-05 18:00:03.611: 5 Cars arrived at the wash park.
+2022-12-05 18:00:03.612: Car 8 is being washed for 5000ms.
+2022-12-05 18:00:03.612: Car 9 is being cleaned for 15000ms.
+2022-12-05 18:00:03.612: Car 10 is being washed for 8000ms.
+2022-12-05 18:00:03.612: Car 12 is being cleaned for 5000ms.
+2022-12-05 18:00:03.612: All washing lines are occupied. Car 11 waits ...
+2022-12-05 18:00:06.617: Car 5 has been washed successfully.
+2022-12-05 18:00:06.617: Car 11 is being washed for 10000ms.
+2022-12-05 18:00:08.601: We are currently in the 1. hour. We have in total 12 Cars this hour.
+2022-12-05 18:00:08.601: 4 Cars arrived at the wash park.
+2022-12-05 18:00:08.601: All washing lines are occupied. Car 14 waits ...
+2022-12-05 18:00:08.601: All washing lines are occupied. Car 13 waits ...
+2022-12-05 18:00:08.602: Car 15 is being cleaned for 5000ms.
+2022-12-05 18:00:08.602: All washing lines are occupied. Car 16 waits ...
+2022-12-05 18:00:08.617: Car 8 has been washed successfully.
+2022-12-05 18:00:08.617: Car 12 has been cleaned successfully.
+2022-12-05 18:00:08.617: Car 12 is being washed for 10000ms.
+2022-12-05 18:00:08.617: All washing lines are occupied. Car 14 waits ...
+2022-12-05 18:00:08.694: Car 3 has been washed successfully.
+2022-12-05 18:00:08.694: Car 13 is being washed for 6000ms.
+2022-12-05 18:00:10.682: Car 1 has been washed successfully.
+2022-12-05 18:00:10.682: Car 16 is being washed for 9000ms.
+2022-12-05 18:00:10.682: All washing lines are occupied. Car 14 waits ...
+2022-12-05 18:00:11.613: Car 10 has been washed successfully.
+2022-12-05 18:00:11.613: Car 14 is being washed for 10000ms.
+2022-12-05 18:00:13.599: We are currently in the 1. hour. We have in total 16 Cars this hour.
+2022-12-05 18:00:13.599: 3 Cars arrived at the wash park.
+2022-12-05 18:00:13.599: All washing lines are occupied. Car 17 waits ...
+2022-12-05 18:00:13.599: Car 18 is being cleaned for 5000ms.
+2022-12-05 18:00:13.599: All washing lines are occupied. Car 19 waits ...
+2022-12-05 18:00:13.615: Car 15 has been cleaned successfully.
+2022-12-05 18:00:13.615: Car 6 has been cleaned successfully.
+2022-12-05 18:00:13.615: All washing lines are occupied. Car 15 waits ...
+2022-12-05 18:00:13.615: All washing lines are occupied. Car 6 waits ...
+2022-12-05 18:00:14.705: Car 13 has been washed successfully.
+2022-12-05 18:00:14.705: Car 17 is being washed for 5000ms.
+2022-12-05 18:00:16.628: Car 11 has been washed successfully.
+2022-12-05 18:00:16.628: Car 19 is being washed for 10000ms.
+2022-12-05 18:00:18.612: Car 18 has been cleaned successfully.
+2022-12-05 18:00:18.612: We are currently in the 1. hour. We have in total 19 Cars this hour.
+2022-12-05 18:00:18.612: 4 Cars arrived at the wash park.
+2022-12-05 18:00:18.612: All washing lines are occupied. Car 18 waits ...
+2022-12-05 18:00:18.612: All washing lines are occupied. Car 20 waits ...
+2022-12-05 18:00:18.612: Car 21 is being cleaned for 5000ms.
+2022-12-05 18:00:18.612: All washing lines are occupied. Car 22 waits ...
+2022-12-05 18:00:18.612: All washing lines are occupied. Car 23 waits ...
+2022-12-05 18:00:18.627: Car 9 has been cleaned successfully.
+2022-12-05 18:00:18.627: Car 12 has been washed successfully.
+2022-12-05 18:00:18.627: All washing lines are occupied. Car 9 waits ...
+2022-12-05 18:00:18.627: Car 15 is being washed for 10000ms.
+2022-12-05 18:00:19.688: Car 16 has been washed successfully.
+2022-12-05 18:00:19.688: Car 6 is being washed for 9000ms.
+2022-12-05 18:00:19.719: Car 17 has been washed successfully.
+2022-12-05 18:00:19.719: Car 18 is being washed for 8000ms.
+2022-12-05 18:00:21.624: Car 14 has been washed successfully.
+2022-12-05 18:00:21.624: Car 20 is being washed for 8000ms.
+2022-12-05 18:00:23.6: We are currently in the 1. hour. We have in total 23 Cars this hour.
+2022-12-05 18:00:23.6: 4 Cars arrived at the wash park.
+2022-12-05 18:00:23.6: All washing lines are occupied. Car 25 waits ...
+2022-12-05 18:00:23.6: Car 24 is being cleaned for 15000ms.
+2022-12-05 18:00:23.6: Car 27 is being cleaned for 15000ms.
+2022-12-05 18:00:23.6: All washing lines are occupied. Car 26 waits ...
+2022-12-05 18:00:23.616: Car 21 has been cleaned successfully.
+2022-12-05 18:00:23.616: All washing lines are occupied. Car 21 waits ...
+2022-12-05 18:00:26.637: Car 19 has been washed successfully.
+2022-12-05 18:00:26.637: Car 22 is being washed for 6000ms.
+2022-12-05 18:00:27.722: Car 18 has been washed successfully.
+2022-12-05 18:00:27.722: Car 23 is being washed for 5000ms.
+2022-12-05 18:00:28.608: We are currently in the 1. hour. We have in total 27 Cars this hour.
+2022-12-05 18:00:28.608: 3 Cars arrived at the wash park.
+2022-12-05 18:00:28.608: All washing lines are occupied. Car 28 waits ...
+2022-12-05 18:00:28.608: All washing lines are occupied. Car 29 waits ...
+2022-12-05 18:00:28.608: Car 30 is being cleaned for 5000ms.
+2022-12-05 18:00:28.639: Car 15 has been washed successfully.
+2022-12-05 18:00:28.639: Car 9 is being washed for 5000ms.
+2022-12-05 18:00:28.701: Car 6 has been washed successfully.
+2022-12-05 18:00:28.701: Car 25 is being washed for 5000ms.
+2022-12-05 18:00:29.632: Car 20 has been washed successfully.
+2022-12-05 18:00:29.632: Car 26 is being washed for 7000ms.
+2022-12-05 18:00:32.651: Car 22 has been washed successfully.
+2022-12-05 18:00:32.651: Car 21 is being washed for 5000ms.
+2022-12-05 18:00:32.728: Car 23 has been washed successfully.
+2022-12-05 18:00:32.728: Car 28 is being washed for 9000ms.
+2022-12-05 18:00:33.599: We are currently in the 1. hour. We have in total 30 Cars this hour.
+2022-12-05 18:00:33.599: 3 Cars arrived at the wash park.
+2022-12-05 18:00:33.599: All washing lines are occupied. Car 31 waits ...
+2022-12-05 18:00:33.599: Car 33 is being cleaned for 5000ms.
+2022-12-05 18:00:33.599: All washing lines are occupied. Car 32 waits ...
+2022-12-05 18:00:33.615: Car 30 has been cleaned successfully.
+2022-12-05 18:00:33.615: All washing lines are occupied. Car 30 waits ...
+2022-12-05 18:00:33.646: Car 9 has been washed successfully.
+2022-12-05 18:00:33.646: Car 29 is being washed for 5000ms.
+2022-12-05 18:00:33.708: Car 25 has been washed successfully.
+2022-12-05 18:00:33.708: Car 31 is being washed for 5000ms.
+2022-12-05 18:00:36.638: Car 26 has been washed successfully.
+2022-12-05 18:00:36.638: Car 32 is being washed for 5000ms.
+2022-12-05 18:00:37.662: Car 21 has been washed successfully.
+2022-12-05 18:00:37.662: Car 30 is being washed for 9000ms.
+2022-12-05 18:00:38.611: Car 24 has been cleaned successfully.
+2022-12-05 18:00:38.611: Car 33 has been cleaned successfully.
+2022-12-05 18:00:38.611: All washing lines are occupied. Car 24 waits ...
+2022-12-05 18:00:38.611: We are currently in the 1. hour. We have in total 33 Cars this hour.
+2022-12-05 18:00:38.611: Car 27 has been cleaned successfully.
+2022-12-05 18:00:38.611: 3 Cars arrived at the wash park.
+2022-12-05 18:00:38.611: All washing lines are occupied. Car 33 waits ...
+2022-12-05 18:00:38.611: All washing lines are occupied. Car 34 waits ...
+2022-12-05 18:00:38.611: Car 36 is being cleaned for 5000ms.
+2022-12-05 18:00:38.611: All washing lines are occupied. Car 27 waits ...
+2022-12-05 18:00:38.611: All washing lines are occupied. Car 35 waits ...
+2022-12-05 18:00:38.658: Car 29 has been washed successfully.
+2022-12-05 18:00:38.658: Car 24 is being washed for 10000ms.
+2022-12-05 18:00:38.72: Car 31 has been washed successfully.
+2022-12-05 18:00:38.72: Car 33 is being washed for 7000ms.
+2022-12-05 18:00:41.644: Car 32 has been washed successfully.
+2022-12-05 18:00:41.644: Car 34 is being washed for 5000ms.
+2022-12-05 18:00:41.737: Car 28 has been washed successfully.
+2022-12-05 18:00:41.737: Car 27 is being washed for 9000ms.
+2022-12-05 18:00:43.608: We are currently in the 1. hour. We have in total 36 Cars this hour.
+2022-12-05 18:00:43.608: 3 Cars arrived at the wash park.
+2022-12-05 18:00:43.608: All washing lines are occupied. Car 38 waits ...
+2022-12-05 18:00:43.608: Car 39 is being cleaned for 5000ms.
+2022-12-05 18:00:43.608: All washing lines are occupied. Car 37 waits ...
+2022-12-05 18:00:43.623: Car 36 has been cleaned successfully.
+2022-12-05 18:00:43.623: All washing lines are occupied. Car 36 waits ...
+2022-12-05 18:00:45.729: Car 33 has been washed successfully.
+2022-12-05 18:00:45.729: Car 35 is being washed for 8000ms.
+2022-12-05 18:00:46.644: Car 34 has been washed successfully.
+2022-12-05 18:00:46.644: Car 38 is being washed for 10000ms.
+2022-12-05 18:00:46.676: Car 30 has been washed successfully.
+2022-12-05 18:00:46.676: Car 37 is being washed for 9000ms.
+2022-12-05 18:00:48.603: We are currently in the 1. hour. We have in total 39 Cars this hour.
+2022-12-05 18:00:48.603: 5 Cars arrived at the wash park.
+2022-12-05 18:00:48.603: All washing lines are occupied. Car 40 waits ...
+2022-12-05 18:00:48.603: Car 42 is being cleaned for 10000ms.
+2022-12-05 18:00:48.603: All washing lines are occupied. Car 41 waits ...
+2022-12-05 18:00:48.603: All washing lines are occupied. Car 43 waits ...
+2022-12-05 18:00:48.603: All washing lines are occupied. Car 44 waits ...
+2022-12-05 18:00:48.618: Car 39 has been cleaned successfully.
+2022-12-05 18:00:48.618: All washing lines are occupied. Car 39 waits ...
+2022-12-05 18:00:48.664: Car 24 has been washed successfully.
+2022-12-05 18:00:48.664: Car 36 is being washed for 8000ms.
+2022-12-05 18:00:50.748: Car 27 has been washed successfully.
+2022-12-05 18:00:50.748: Car 40 is being washed for 10000ms.
+2022-12-05 18:00:53.607: We are currently in the 2. hour. We have in total 0 Cars this hour.
+2022-12-05 18:00:53.607: 4 Cars arrived at the wash park.
+2022-12-05 18:00:53.607: All washing lines are occupied. Car 45 waits ...
+2022-12-05 18:00:53.607: All washing lines are occupied. Car 47 waits ...
+2022-12-05 18:00:53.607: Car 48 is being cleaned for 10000ms.
+2022-12-05 18:00:53.607: All washing lines are occupied. Car 46 waits ...
+2022-12-05 18:00:53.73: Car 35 has been washed successfully.
+2022-12-05 18:00:53.73: Car 41 is being washed for 9000ms.
+2022-12-05 18:00:55.683: Car 37 has been washed successfully.
+2022-12-05 18:00:55.683: Car 43 is being washed for 6000ms.
+2022-12-05 18:00:56.659: Car 38 has been washed successfully.
+2022-12-05 18:00:56.659: Car 44 is being washed for 10000ms.
+2022-12-05 18:00:56.675: Car 36 has been washed successfully.
+2022-12-05 18:00:56.675: Car 39 is being washed for 6000ms.
+2022-12-05 18:00:58.614: Car 42 has been cleaned successfully.
+2022-12-05 18:00:58.614: We are currently in the 2. hour. We have in total 4 Cars this hour.
+2022-12-05 18:00:58.614: All washing lines are occupied. Car 42 waits ...
+2022-12-05 18:00:58.614: 6 Cars arrived at the wash park.
+2022-12-05 18:00:58.614: All washing lines are occupied. Car 49 waits ...
+2022-12-05 18:00:58.614: All washing lines are occupied. Car 50 waits ...
+2022-12-05 18:00:58.614: Car 52 is being cleaned for 5000ms.
+2022-12-05 18:00:58.614: All washing lines are occupied. Car 51 waits ...
+2022-12-05 18:00:58.615: All washing lines are occupied. Car 53 waits ...
+2022-12-05 18:00:58.615: All washing lines are occupied. Car 54 waits ...
+2022-12-05 18:01:00.763: Car 40 has been washed successfully.
+2022-12-05 18:01:00.763: Car 45 is being washed for 5000ms.
+2022-12-05 18:01:01.697: Car 43 has been washed successfully.
+2022-12-05 18:01:01.697: Car 47 is being washed for 10000ms.
+2022-12-05 18:01:02.69: Car 39 has been washed successfully.
+2022-12-05 18:01:02.69: Car 46 is being washed for 7000ms.
+2022-12-05 18:01:02.736: Car 41 has been washed successfully.
+2022-12-05 18:01:02.736: Car 42 is being washed for 9000ms.
+2022-12-05 18:01:03.612: We are currently in the 2. hour. We have in total 10 Cars this hour.
+2022-12-05 18:01:03.612: Car 48 has been cleaned successfully.
+2022-12-05 18:01:03.612: 4 Cars arrived at the wash park.
+2022-12-05 18:01:03.612: All washing lines are occupied. Car 48 waits ...
+2022-12-05 18:01:03.612: Car 56 is being cleaned for 10000ms.
+2022-12-05 18:01:03.612: All washing lines are occupied. Car 55 waits ...
+2022-12-05 18:01:03.612: All washing lines are occupied. Car 57 waits ...
+2022-12-05 18:01:03.612: All washing lines are occupied. Car 58 waits ...
+2022-12-05 18:01:03.627: Car 52 has been cleaned successfully.
+2022-12-05 18:01:03.627: All washing lines are occupied. Car 52 waits ...
+2022-12-05 18:01:05.774: Car 45 has been washed successfully.
+2022-12-05 18:01:05.774: Car 49 is being washed for 7000ms.
+2022-12-05 18:01:06.662: Car 44 has been washed successfully.
+2022-12-05 18:01:06.662: Car 50 is being washed for 10000ms.
+2022-12-05 18:01:08.608: We are currently in the 2. hour. We have in total 14 Cars this hour.
+2022-12-05 18:01:08.608: 4 Cars arrived at the wash park.
+2022-12-05 18:01:08.608: All washing lines are occupied. Car 59 waits ...
+2022-12-05 18:01:08.608: Car 60 is being cleaned for 5000ms.
+2022-12-05 18:01:08.608: All washing lines are occupied. Car 61 waits ...
+2022-12-05 18:01:08.609: All washing lines are occupied. Car 62 waits ...
+2022-12-05 18:01:09.698: Car 46 has been washed successfully.
+2022-12-05 18:01:09.698: Car 51 is being washed for 7000ms.
+2022-12-05 18:01:11.708: Car 47 has been washed successfully.
+2022-12-05 18:01:11.708: Car 53 is being washed for 10000ms.
+2022-12-05 18:01:11.739: Car 42 has been washed successfully.
+2022-12-05 18:01:11.739: Car 54 is being washed for 7000ms.
+2022-12-05 18:01:12.781: Car 49 has been washed successfully.
+2022-12-05 18:01:12.781: Car 48 is being washed for 8000ms.
+2022-12-05 18:01:13.608: We are currently in the 2. hour. We have in total 18 Cars this hour.
+2022-12-05 18:01:13.608: 6 Cars arrived at the wash park.
+2022-12-05 18:01:13.608: All washing lines are occupied. Car 63 waits ...
+2022-12-05 18:01:13.608: Car 64 is being cleaned for 15000ms.
+2022-12-05 18:01:13.608: All washing lines are occupied. Car 65 waits ...
+2022-12-05 18:01:13.608: All washing lines are occupied. Car 66 waits ...
+2022-12-05 18:01:13.609: All washing lines are occupied. Car 67 waits ...
+2022-12-05 18:01:13.609: Car 68 is being cleaned for 15000ms.
+2022-12-05 18:01:13.61: Car 60 has been cleaned successfully.
+2022-12-05 18:01:13.61: All washing lines are occupied. Car 60 waits ...
+2022-12-05 18:01:13.624: Car 56 has been cleaned successfully.
+2022-12-05 18:01:13.624: All washing lines are occupied. Car 56 waits ...
+2022-12-05 18:01:16.676: Car 50 has been washed successfully.
+2022-12-05 18:01:16.676: Car 55 is being washed for 5000ms.
+2022-12-05 18:01:16.706: Car 51 has been washed successfully.
+2022-12-05 18:01:16.706: Car 57 is being washed for 10000ms.
+2022-12-05 18:01:18.6: We are currently in the 2. hour. We have in total 24 Cars this hour.
+2022-12-05 18:01:18.6: 5 Cars arrived at the wash park.
+2022-12-05 18:01:18.6: All washing lines are occupied. Car 69 waits ...
+2022-12-05 18:01:18.6: All washing lines are occupied. Car 70 waits ...
+2022-12-05 18:01:18.6: All washing lines are occupied. Car 71 waits ...
+2022-12-05 18:01:18.6: Car 72 is being cleaned for 10000ms.
+2022-12-05 18:01:18.6: All washing lines are occupied. Car 73 waits ...
+2022-12-05 18:01:18.742: Car 54 has been washed successfully.
+2022-12-05 18:01:18.742: Car 58 is being washed for 9000ms.
+2022-12-05 18:01:20.794: Car 48 has been washed successfully.
+2022-12-05 18:01:20.794: Car 52 is being washed for 7000ms.
+2022-12-05 18:01:21.677: Car 55 has been washed successfully.
+2022-12-05 18:01:21.677: Car 59 is being washed for 5000ms.
+2022-12-05 18:01:21.708: Car 53 has been washed successfully.
+2022-12-05 18:01:21.708: Car 61 is being washed for 9000ms.
+2022-12-05 18:01:23.609: We are currently in the 2. hour. We have in total 29 Cars this hour.
+2022-12-05 18:01:23.609: 7 Cars arrived at the wash park.
+2022-12-05 18:01:23.609: All washing lines are occupied. Car 74 waits ...
+2022-12-05 18:01:23.609: Car 76 is being cleaned for 15000ms.
+2022-12-05 18:01:23.609: All washing lines are occupied. Car 77 waits ...
+2022-12-05 18:01:23.609: All washing lines are occupied. Car 75 waits ...
+2022-12-05 18:01:23.609: All washing lines are occupied. Car 78 waits ...
+2022-12-05 18:01:23.61: All washing lines are occupied. Car 79 waits ...
+2022-12-05 18:01:23.61: All washing lines are occupied. Car 80 waits ...
+2022-12-05 18:01:26.687: Car 59 has been washed successfully.
+2022-12-05 18:01:26.687: Car 62 is being washed for 7000ms.
+2022-12-05 18:01:26.717: Car 57 has been washed successfully.
+2022-12-05 18:01:26.717: Car 63 is being washed for 6000ms.
+2022-12-05 18:01:27.745: Car 58 has been washed successfully.
+2022-12-05 18:01:27.745: Car 65 is being washed for 8000ms.
+2022-12-05 18:01:27.806: Car 52 has been washed successfully.
+2022-12-05 18:01:27.806: Car 66 is being washed for 8000ms.
+2022-12-05 18:01:28.61: Car 68 has been cleaned successfully.
+2022-12-05 18:01:28.61: All washing lines are occupied. Car 68 waits ...
+2022-12-05 18:01:28.611: Car 64 has been cleaned successfully.
+2022-12-05 18:01:28.611: All washing lines are occupied. Car 64 waits ...
+2022-12-05 18:01:28.612: Car 72 has been cleaned successfully.
+2022-12-05 18:01:28.612: We are currently in the 2. hour. We have in total 36 Cars this hour.
+2022-12-05 18:01:28.612: All washing lines are occupied. Car 72 waits ...
+2022-12-05 18:01:28.612: 6 Cars arrived at the wash park.
+2022-12-05 18:01:28.612: All washing lines are occupied. Car 81 waits ...
+2022-12-05 18:01:28.612: Car 84 is being cleaned for 10000ms.
+2022-12-05 18:01:28.612: All washing lines are occupied. Car 82 waits ...
+2022-12-05 18:01:28.612: All washing lines are occupied. Car 83 waits ...
+2022-12-05 18:01:28.612: All washing lines are occupied. Car 85 waits ...
+2022-12-05 18:01:28.613: All washing lines are occupied. Car 86 waits ...
+2022-12-05 18:01:30.715: Car 61 has been washed successfully.
+2022-12-05 18:01:30.715: Car 67 is being washed for 8000ms.
+2022-12-05 18:01:32.719: Car 63 has been washed successfully.
+2022-12-05 18:01:32.719: Car 60 is being washed for 8000ms.
+2022-12-05 18:01:33.603: We are currently in the 2. hour. We have in total 42 Cars this hour.
+2022-12-05 18:01:33.603: 6 Cars arrived at the wash park.
+2022-12-05 18:01:33.603: All washing lines are occupied. Car 87 waits ...
+2022-12-05 18:01:33.603: Car 88 is being cleaned for 5000ms.
+2022-12-05 18:01:33.603: All washing lines are occupied. Car 89 waits ...
+2022-12-05 18:01:33.604: All washing lines are occupied. Car 90 waits ...
+2022-12-05 18:01:33.604: All washing lines are occupied. Car 91 waits ...
+2022-12-05 18:01:33.604: Car 92 is being cleaned for 15000ms.
+2022-12-05 18:01:33.696: Car 62 has been washed successfully.
+2022-12-05 18:01:33.696: Car 56 is being washed for 6000ms.
+2022-12-05 18:01:35.757: Car 65 has been washed successfully.
+2022-12-05 18:01:35.757: Car 69 is being washed for 8000ms.
+2022-12-05 18:01:35.819: Car 66 has been washed successfully.
+2022-12-05 18:01:35.819: Car 70 is being washed for 9000ms.
+2022-12-05 18:01:38.612: Car 76 has been cleaned successfully.
+2022-12-05 18:01:38.612: We are currently in the 2. hour. We have in total 48 Cars this hour.
+2022-12-05 18:01:38.612: All washing lines are occupied. Car 76 waits ...
+2022-12-05 18:01:38.612: 4 Cars arrived at the wash park.
+2022-12-05 18:01:38.612: Car 88 has been cleaned successfully.
+2022-12-05 18:01:38.612: All washing lines are occupied. Car 93 waits ...
+2022-12-05 18:01:38.612: All washing lines are occupied. Car 94 waits ...
+2022-12-05 18:01:38.612: All washing lines are occupied. Car 88 waits ...
+2022-12-05 18:01:38.612: All washing lines are occupied. Car 95 waits ...
+2022-12-05 18:01:38.612: Car 96 is being cleaned for 5000ms.
+2022-12-05 18:01:38.627: Car 84 has been cleaned successfully.
+2022-12-05 18:01:38.627: All washing lines are occupied. Car 84 waits ...
+2022-12-05 18:01:38.72: Car 67 has been washed successfully.
+2022-12-05 18:01:38.72: Car 71 is being washed for 10000ms.
+2022-12-05 18:01:39.701: Car 56 has been washed successfully.
+2022-12-05 18:01:39.701: Car 73 is being washed for 7000ms.
+2022-12-05 18:01:40.726: Car 60 has been washed successfully.
+2022-12-05 18:01:40.726: Car 74 is being washed for 8000ms.
+2022-12-05 18:01:43.605: We are currently in the 2. hour. We have in total 52 Cars this hour.
+2022-12-05 18:01:43.605: 7 Cars arrived at the wash park.
+2022-12-05 18:01:43.605: All washing lines are occupied. Car 98 waits ...
+2022-12-05 18:01:43.605: All washing lines are occupied. Car 97 waits ...
+2022-12-05 18:01:43.605: All washing lines are occupied. Car 99 waits ...
+2022-12-05 18:01:43.605: Car 100 is being cleaned for 10000ms.
+2022-12-05 18:01:43.606: All washing lines are occupied. Car 101 waits ...
+2022-12-05 18:01:43.606: All washing lines are occupied. Car 102 waits ...
+2022-12-05 18:01:43.606: All washing lines are occupied. Car 103 waits ...
+2022-12-05 18:01:43.621: Car 96 has been cleaned successfully.
+2022-12-05 18:01:43.621: All washing lines are occupied. Car 96 waits ...
+2022-12-05 18:01:43.762: Car 69 has been washed successfully.
+2022-12-05 18:01:43.762: Car 77 is being washed for 6000ms.
+2022-12-05 18:01:44.832: Car 70 has been washed successfully.
+2022-12-05 18:01:44.832: Car 75 is being washed for 8000ms.
+2022-12-05 18:01:46.708: Car 73 has been washed successfully.
+2022-12-05 18:01:46.708: Car 78 is being washed for 9000ms.
+2022-12-05 18:01:48.599: We are currently in the 2. hour. We have in total 59 Cars this hour.
+2022-12-05 18:01:48.599: 5 Cars arrived at the wash park.
+2022-12-05 18:01:48.599: All washing lines are occupied. Car 106 waits ...
+2022-12-05 18:01:48.599: Car 104 is being cleaned for 15000ms.
+2022-12-05 18:01:48.599: All washing lines are occupied. Car 105 waits ...
+2022-12-05 18:01:48.599: All washing lines are occupied. Car 107 waits ...
+2022-12-05 18:01:48.599: Car 108 is being cleaned for 10000ms.
+2022-12-05 18:01:48.614: Car 92 has been cleaned successfully.
+2022-12-05 18:01:48.614: All washing lines are occupied. Car 92 waits ...
+2022-12-05 18:01:48.723: Car 71 has been washed successfully.
+2022-12-05 18:01:48.723: Car 79 is being washed for 7000ms.
+2022-12-05 18:01:48.739: Car 74 has been washed successfully.
+2022-12-05 18:01:48.739: Car 80 is being washed for 8000ms.
+2022-12-05 18:01:49.763: Car 77 has been washed successfully.
+2022-12-05 18:01:49.763: Car 68 is being washed for 6000ms.
+2022-12-05 18:01:52.843: Car 75 has been washed successfully.
+2022-12-05 18:01:52.843: Car 64 is being washed for 6000ms.
+2022-12-05 18:01:53.606: Car 100 has been cleaned successfully.
+2022-12-05 18:01:53.606: We are currently in the 3. hour. We have in total 0 Cars this hour.
+2022-12-05 18:01:53.606: All washing lines are occupied. Car 100 waits ...
+2022-12-05 18:01:53.606: 4 Cars arrived at the wash park.
+2022-12-05 18:01:53.606: Car 112 is being cleaned for 5000ms.
+2022-12-05 18:01:53.606: All washing lines are occupied. Car 111 waits ...
+2022-12-05 18:01:53.606: Car 110 is being cleaned for 10000ms.
+2022-12-05 18:01:53.606: All washing lines are occupied. Car 109 waits ...
+2022-12-05 18:01:55.709: Car 78 has been washed successfully.
+2022-12-05 18:01:55.709: Car 72 is being washed for 8000ms.
+2022-12-05 18:01:55.725: Car 79 has been washed successfully.
+2022-12-05 18:01:55.725: Car 81 is being washed for 8000ms.
+2022-12-05 18:01:55.771: Car 68 has been washed successfully.
+2022-12-05 18:01:55.771: Car 82 is being washed for 8000ms.
+2022-12-05 18:01:56.75: Car 80 has been washed successfully.
+2022-12-05 18:01:56.75: All washing lines are occupied. Car 80 waits ...
+2022-12-05 18:01:56.75: Car 83 is being washed for 9000ms.
+2022-12-05 18:01:58.61: Car 112 has been cleaned successfully.
+2022-12-05 18:01:58.61: Car 108 has been cleaned successfully.
+2022-12-05 18:01:58.61: We are currently in the 3. hour. We have in total 4 Cars this hour.
+2022-12-05 18:01:58.61: All washing lines are occupied. Car 112 waits ...
+2022-12-05 18:01:58.61: Car 80 is being cleaned for 10000ms.
+2022-12-05 18:01:58.61: Car 109 is being cleaned for 10000ms.
+2022-12-05 18:01:58.61: All washing lines are occupied. Car 108 waits ...
+2022-12-05 18:01:58.61: 5 Cars arrived at the wash park.
+2022-12-05 18:01:58.61: All washing lines are occupied. Car 113 waits ...
+2022-12-05 18:01:58.61: All washing lines are occupied. Car 115 waits ...
+2022-12-05 18:01:58.61: All washing lines are occupied. Car 114 waits ...
+2022-12-05 18:01:58.616: All washing lines are occupied. Car 117 waits ...
+2022-12-05 18:01:58.616: All washing lines are occupied. Car 116 waits ...
+2022-12-05 18:01:58.857: Car 64 has been washed successfully.
+2022-12-05 18:01:58.857: Car 85 is being washed for 6000ms.
+2022-12-05 18:02:03.607: We are currently in the 3. hour. We have in total 9 Cars this hour.
+2022-12-05 18:02:03.607: Car 104 has been cleaned successfully.
+2022-12-05 18:02:03.607: Car 110 has been cleaned successfully.
+2022-12-05 18:02:03.607: All washing lines are occupied. Car 104 waits ...
+2022-12-05 18:02:03.607: 3 Cars arrived at the wash park.
+2022-12-05 18:02:03.607: All washing lines are occupied. Car 110 waits ...
+2022-12-05 18:02:03.607: Car 118 is being cleaned for 10000ms.
+2022-12-05 18:02:03.608: Car 119 is being cleaned for 10000ms.
+2022-12-05 18:02:03.608: All washing lines are occupied. Car 120 waits ...
+2022-12-05 18:02:03.717: Car 72 has been washed successfully.
+2022-12-05 18:02:03.717: Car 86 is being washed for 6000ms.
+2022-12-05 18:02:03.733: Car 81 has been washed successfully.
+2022-12-05 18:02:03.733: Car 87 is being washed for 8000ms.
+2022-12-05 18:02:03.78: Car 82 has been washed successfully.
+2022-12-05 18:02:03.78: Car 89 is being washed for 9000ms.
+2022-12-05 18:02:04.871: Car 85 has been washed successfully.
+2022-12-05 18:02:04.871: Car 90 is being washed for 8000ms.
+2022-12-05 18:02:05.76: Car 83 has been washed successfully.
+2022-12-05 18:02:05.76: Car 91 is being washed for 10000ms.
+2022-12-05 18:02:08.609: We are currently in the 3. hour. We have in total 12 Cars this hour.
+2022-12-05 18:02:08.609: 3 Cars arrived at the wash park.
+2022-12-05 18:02:08.609: All washing lines are occupied. Car 122 waits ...
+2022-12-05 18:02:08.609: All washing lines are occupied. Car 123 waits ...
+2022-12-05 18:02:08.609: All washing lines are occupied. Car 121 waits ...
+2022-12-05 18:02:08.624: Car 80 has been cleaned successfully.
+2022-12-05 18:02:08.624: Car 109 has been cleaned successfully.
+2022-12-05 18:02:08.624: All washing lines are occupied. Car 109 waits ...
+2022-12-05 18:02:09.73: Car 86 has been washed successfully.
+2022-12-05 18:02:09.73: Car 76 is being washed for 10000ms.
+2022-12-05 18:02:11.748: Car 87 has been washed successfully.
+2022-12-05 18:02:11.748: Car 93 is being washed for 7000ms.
+2022-12-05 18:02:12.788: Car 89 has been washed successfully.
+2022-12-05 18:02:12.788: Car 94 is being washed for 7000ms.
+2022-12-05 18:02:12.881: Car 90 has been washed successfully.
+2022-12-05 18:02:12.881: Car 88 is being washed for 5000ms.
+2022-12-05 18:02:13.599: We are currently in the 3. hour. We have in total 15 Cars this hour.
+2022-12-05 18:02:13.599: 5 Cars arrived at the wash park.
+2022-12-05 18:02:13.599: Car 124 is being cleaned for 10000ms.
+2022-12-05 18:02:13.599: Car 127 is being cleaned for 5000ms.
+2022-12-05 18:02:13.599: All washing lines are occupied. Car 126 waits ...
+2022-12-05 18:02:13.599: All washing lines are occupied. Car 128 waits ...
+2022-12-05 18:02:13.599: All washing lines are occupied. Car 125 waits ...
+2022-12-05 18:02:13.614: Car 119 has been cleaned successfully.
+2022-12-05 18:02:13.614: Car 118 has been cleaned successfully.
+2022-12-05 18:02:13.614: All washing lines are occupied. Car 119 waits ...
+2022-12-05 18:02:13.614: Car 126 is being cleaned for 10000ms.
+2022-12-05 18:02:13.614: All washing lines are occupied. Car 118 waits ...
+2022-12-05 18:02:15.767: Car 91 has been washed successfully.
+2022-12-05 18:02:15.767: Car 95 is being washed for 5000ms.
+2022-12-05 18:02:17.883: Car 88 has been washed successfully.
+2022-12-05 18:02:17.883: Car 84 is being washed for 9000ms.
+2022-12-05 18:02:18.6: Car 127 has been cleaned successfully.
+2022-12-05 18:02:18.6: We are currently in the 3. hour. We have in total 20 Cars this hour.
+2022-12-05 18:02:18.6: All washing lines are occupied. Car 127 waits ...
+2022-12-05 18:02:18.6: 5 Cars arrived at the wash park.
+2022-12-05 18:02:18.6: Car 129 is being cleaned for 15000ms.
+2022-12-05 18:02:18.6: Car 130 is being cleaned for 5000ms.
+2022-12-05 18:02:18.6: All washing lines are occupied. Car 131 waits ...
+2022-12-05 18:02:18.6: All washing lines are occupied. Car 132 waits ...
+2022-12-05 18:02:18.6: All washing lines are occupied. Car 133 waits ...
+2022-12-05 18:02:18.757: Car 93 has been washed successfully.
+2022-12-05 18:02:18.757: Car 98 is being washed for 7000ms.
+2022-12-05 18:02:19.737: Car 76 has been washed successfully.
+2022-12-05 18:02:19.737: Car 97 is being washed for 6000ms.
+2022-12-05 18:02:19.798: Car 94 has been washed successfully.
+2022-12-05 18:02:19.798: Car 99 is being washed for 8000ms.
+2022-12-05 18:02:20.782: Car 95 has been washed successfully.
+2022-12-05 18:02:20.782: Car 101 is being washed for 7000ms.
+2022-12-05 18:02:23.61: Car 124 has been cleaned successfully.
+2022-12-05 18:02:23.61: Car 130 has been cleaned successfully.
+2022-12-05 18:02:23.61: All washing lines are occupied. Car 124 waits ...
+2022-12-05 18:02:23.61: We are currently in the 3. hour. We have in total 25 Cars this hour.
+2022-12-05 18:02:23.61: All washing lines are occupied. Car 130 waits ...
+2022-12-05 18:02:23.61: 3 Cars arrived at the wash park.
+2022-12-05 18:02:23.61: Car 134 is being cleaned for 5000ms.
+2022-12-05 18:02:23.61: All washing lines are occupied. Car 135 waits ...
+2022-12-05 18:02:23.61: Car 136 is being cleaned for 5000ms.
+2022-12-05 18:02:23.625: Car 126 has been cleaned successfully.
+2022-12-05 18:02:23.625: All washing lines are occupied. Car 126 waits ...
+2022-12-05 18:02:25.744: Car 97 has been washed successfully.
+2022-12-05 18:02:25.744: Car 102 is being washed for 8000ms.
+2022-12-05 18:02:25.76: Car 98 has been washed successfully.
+2022-12-05 18:02:25.76: Car 103 is being washed for 10000ms.
+2022-12-05 18:02:26.896: Car 84 has been washed successfully.
+2022-12-05 18:02:26.896: Car 96 is being washed for 8000ms.
+2022-12-05 18:02:27.792: Car 101 has been washed successfully.
+2022-12-05 18:02:27.792: Car 106 is being washed for 10000ms.
+2022-12-05 18:02:27.808: Car 99 has been washed successfully.
+2022-12-05 18:02:27.808: Car 105 is being washed for 10000ms.
+2022-12-05 18:02:28.613: Car 134 has been cleaned successfully.
+2022-12-05 18:02:28.613: Car 136 has been cleaned successfully.
+2022-12-05 18:02:28.613: All washing lines are occupied. Car 134 waits ...
+2022-12-05 18:02:28.613: All washing lines are occupied. Car 136 waits ...
+2022-12-05 18:02:28.613: We are currently in the 3. hour. We have in total 28 Cars this hour.
+2022-12-05 18:02:28.613: 4 Cars arrived at the wash park.
+2022-12-05 18:02:28.613: Car 138 is being cleaned for 15000ms.
+2022-12-05 18:02:28.613: Car 137 is being cleaned for 10000ms.
+2022-12-05 18:02:28.613: Car 140 is being cleaned for 10000ms.
+2022-12-05 18:02:28.613: All washing lines are occupied. Car 139 waits ...
+2022-12-05 18:02:33.599: We are currently in the 3. hour. We have in total 32 Cars this hour.
+2022-12-05 18:02:33.599: 4 Cars arrived at the wash park.
+2022-12-05 18:02:33.599: All washing lines are occupied. Car 141 waits ...
+2022-12-05 18:02:33.599: All washing lines are occupied. Car 142 waits ...
+2022-12-05 18:02:33.599: All washing lines are occupied. Car 143 waits ...
+2022-12-05 18:02:33.599: All washing lines are occupied. Car 144 waits ...
+2022-12-05 18:02:33.614: Car 129 has been cleaned successfully.
+2022-12-05 18:02:33.614: All washing lines are occupied. Car 129 waits ...
+2022-12-05 18:02:33.754: Car 102 has been washed successfully.
+2022-12-05 18:02:33.754: Car 107 is being washed for 10000ms.
+2022-12-05 18:02:34.904: Car 96 has been washed successfully.
+2022-12-05 18:02:34.904: Car 92 is being washed for 9000ms.
+2022-12-05 18:02:35.771: Car 103 has been washed successfully.
+2022-12-05 18:02:35.771: Car 100 is being washed for 6000ms.
+2022-12-05 18:02:37.798: Car 106 has been washed successfully.
+2022-12-05 18:02:37.798: Car 111 is being washed for 9000ms.
+2022-12-05 18:02:37.814: Car 105 has been washed successfully.
+2022-12-05 18:02:37.814: Car 112 is being washed for 7000ms.
+2022-12-05 18:02:38.609: We are currently in the 3. hour. We have in total 36 Cars this hour.
+2022-12-05 18:02:38.609: 3 Cars arrived at the wash park.
+2022-12-05 18:02:38.609: All washing lines are occupied. Car 147 waits ...
+2022-12-05 18:02:38.609: Car 145 is being cleaned for 10000ms.
+2022-12-05 18:02:38.609: All washing lines are occupied. Car 146 waits ...
+2022-12-05 18:02:38.625: Car 137 has been cleaned successfully.
+2022-12-05 18:02:38.625: Car 140 has been cleaned successfully.
+2022-12-05 18:02:38.625: All washing lines are occupied. Car 137 waits ...
+2022-12-05 18:02:38.625: Car 146 is being cleaned for 5000ms.
+2022-12-05 18:02:38.625: All washing lines are occupied. Car 140 waits ...
+2022-12-05 18:02:41.786: Car 100 has been washed successfully.
+2022-12-05 18:02:41.786: Car 108 is being washed for 5000ms.
+2022-12-05 18:02:43.606: We are currently in the 3. hour. We have in total 39 Cars this hour.
+2022-12-05 18:02:43.606: 3 Cars arrived at the wash park.
+2022-12-05 18:02:43.606: Car 148 is being cleaned for 10000ms.
+2022-12-05 18:02:43.606: All washing lines are occupied. Car 149 waits ...
+2022-12-05 18:02:43.606: All washing lines are occupied. Car 150 waits ...
+2022-12-05 18:02:43.621: Car 138 has been cleaned successfully.
+2022-12-05 18:02:43.621: All washing lines are occupied. Car 138 waits ...
+2022-12-05 18:02:43.636: Car 146 has been cleaned successfully.
+2022-12-05 18:02:43.636: All washing lines are occupied. Car 146 waits ...
+2022-12-05 18:02:43.762: Car 107 has been washed successfully.
+2022-12-05 18:02:43.762: Car 113 is being washed for 6000ms.
+2022-12-05 18:02:43.918: Car 92 has been washed successfully.
+2022-12-05 18:02:43.918: Car 115 is being washed for 6000ms.
+2022-12-05 18:02:44.821: Car 112 has been washed successfully.
+2022-12-05 18:02:44.821: Car 114 is being washed for 9000ms.
+2022-12-05 18:02:46.787: Car 108 has been washed successfully.
+2022-12-05 18:02:46.787: Car 117 is being washed for 9000ms.
+2022-12-05 18:02:46.801: Car 111 has been washed successfully.
+2022-12-05 18:02:46.801: Car 111 is being cleaned for 5000ms.
+2022-12-05 18:02:46.801: Car 116 is being washed for 6000ms.
+2022-12-05 18:02:48.602: We are currently in the 3. hour. We have in total 42 Cars this hour.
+2022-12-05 18:02:48.602: 4 Cars arrived at the wash park.
+2022-12-05 18:02:48.602: Car 152 is being cleaned for 5000ms.
+2022-12-05 18:02:48.602: All washing lines are occupied. Car 153 waits ...
+2022-12-05 18:02:48.602: All washing lines are occupied. Car 151 waits ...
+2022-12-05 18:02:48.602: All washing lines are occupied. Car 154 waits ...
+2022-12-05 18:02:48.618: Car 145 has been cleaned successfully.
+2022-12-05 18:02:48.618: All washing lines are occupied. Car 145 waits ...
+2022-12-05 18:02:49.772: Car 113 has been washed successfully.
+2022-12-05 18:02:49.772: Car 113 is being cleaned for 10000ms.
+2022-12-05 18:02:49.772: Car 104 is being washed for 8000ms.
+2022-12-05 18:02:49.927: Car 115 has been washed successfully.
+2022-12-05 18:02:49.927: All washing lines are occupied. Car 115 waits ...
+2022-12-05 18:02:49.927: Car 110 is being washed for 9000ms.
+2022-12-05 18:02:51.806: Car 111 has been cleaned successfully.
+2022-12-05 18:02:51.806: Car 115 is being cleaned for 15000ms.
+2022-12-05 18:02:52.816: Car 116 has been washed successfully.
+2022-12-05 18:02:52.816: All washing lines are occupied. Car 116 waits ...
+2022-12-05 18:02:52.816: Car 120 is being washed for 6000ms.
+2022-12-05 18:02:53.609: Car 148 has been cleaned successfully.
+2022-12-05 18:02:53.609: Car 152 has been cleaned successfully.
+2022-12-05 18:02:53.609: All washing lines are occupied. Car 148 waits ...
+2022-12-05 18:02:53.609: Car 116 is being cleaned for 5000ms.
+2022-12-05 18:02:53.609: All washing lines are occupied. Car 152 waits ...
+2022-12-05 18:02:53.828: Car 114 has been washed successfully.
+2022-12-05 18:02:53.828: Car 114 is being cleaned for 5000ms.
+2022-12-05 18:02:53.828: Car 122 is being washed for 8000ms.
+2022-12-05 18:02:55.802: Car 117 has been washed successfully.
+2022-12-05 18:02:55.802: All washing lines are occupied. Car 117 waits ...
+2022-12-05 18:02:55.802: Car 123 is being washed for 8000ms.
+2022-12-05 18:02:57.781: Car 104 has been washed successfully.
+2022-12-05 18:02:57.781: Car 121 is being washed for 7000ms.
+2022-12-05 18:02:58.622: Car 116 has been cleaned successfully.
+2022-12-05 18:02:58.622: Car 117 is being cleaned for 10000ms.
+2022-12-05 18:02:58.826: Car 120 has been washed successfully.
+2022-12-05 18:02:58.826: All washing lines are occupied. Car 120 waits ...
+2022-12-05 18:02:58.826: Car 109 is being washed for 10000ms.
+2022-12-05 18:02:58.841: Car 114 has been cleaned successfully.
+2022-12-05 18:02:58.841: Car 120 is being cleaned for 10000ms.
+2022-12-05 18:02:58.934: Car 110 has been washed successfully.
+2022-12-05 18:02:58.934: Car 128 is being washed for 8000ms.
+2022-12-05 18:02:59.775: Car 113 has been cleaned successfully.
+2022-12-05 18:03:01.836: Car 122 has been washed successfully.
+2022-12-05 18:03:01.836: Car 122 is being cleaned for 15000ms.
+2022-12-05 18:03:01.836: Car 125 is being washed for 7000ms.
+2022-12-05 18:03:03.803: Car 123 has been washed successfully.
+2022-12-05 18:03:03.803: All washing lines are occupied. Car 123 waits ...
+2022-12-05 18:03:03.803: Car 119 is being washed for 10000ms.
+2022-12-05 18:03:04.782: Car 121 has been washed successfully.
+2022-12-05 18:03:04.782: All washing lines are occupied. Car 121 waits ...
+2022-12-05 18:03:04.782: Car 118 is being washed for 7000ms.
+2022-12-05 18:03:06.81: Car 115 has been cleaned successfully.
+2022-12-05 18:03:06.81: Car 123 is being cleaned for 15000ms.
+2022-12-05 18:03:06.95: Car 128 has been washed successfully.
+2022-12-05 18:03:06.95: All washing lines are occupied. Car 128 waits ...
+2022-12-05 18:03:06.95: Car 127 is being washed for 9000ms.
+2022-12-05 18:03:08.627: Car 117 has been cleaned successfully.
+2022-12-05 18:03:08.627: Car 121 is being cleaned for 15000ms.
+2022-12-05 18:03:08.829: Car 109 has been washed successfully.
+2022-12-05 18:03:08.829: Car 131 is being washed for 7000ms.
+2022-12-05 18:03:08.845: Car 125 has been washed successfully.
+2022-12-05 18:03:08.845: Car 120 has been cleaned successfully.
+2022-12-05 18:03:08.845: All washing lines are occupied. Car 125 waits ...
+2022-12-05 18:03:08.845: Car 132 is being washed for 9000ms.
+2022-12-05 18:03:08.845: Car 128 is being cleaned for 10000ms.
+2022-12-05 18:03:11.797: Car 118 has been washed successfully.
+2022-12-05 18:03:11.797: Car 133 is being washed for 7000ms.
+2022-12-05 18:03:13.81: Car 119 has been washed successfully.
+2022-12-05 18:03:13.81: Car 124 is being washed for 6000ms.
+2022-12-05 18:03:15.832: Car 131 has been washed successfully.
+2022-12-05 18:03:15.832: All washing lines are occupied. Car 131 waits ...
+2022-12-05 18:03:15.832: Car 130 is being washed for 7000ms.
+2022-12-05 18:03:15.957: Car 127 has been washed successfully.
+2022-12-05 18:03:15.957: Car 135 is being washed for 8000ms.
+2022-12-05 18:03:16.844: Car 122 has been cleaned successfully.
+2022-12-05 18:03:16.844: Car 125 is being cleaned for 15000ms.
+2022-12-05 18:03:17.856: Car 132 has been washed successfully.
+2022-12-05 18:03:17.856: All washing lines are occupied. Car 132 waits ...
+2022-12-05 18:03:17.856: Car 126 is being washed for 9000ms.
+2022-12-05 18:03:18.805: Car 133 has been washed successfully.
+2022-12-05 18:03:18.805: All washing lines are occupied. Car 133 waits ...
+2022-12-05 18:03:18.805: Car 134 is being washed for 6000ms.
+2022-12-05 18:03:18.852: Car 128 has been cleaned successfully.
+2022-12-05 18:03:18.852: Car 131 is being cleaned for 15000ms.
+2022-12-05 18:03:19.815: Car 124 has been washed successfully.
+2022-12-05 18:03:19.815: Car 136 is being washed for 9000ms.
+2022-12-05 18:03:21.819: Car 123 has been cleaned successfully.
+2022-12-05 18:03:21.819: Car 132 is being cleaned for 10000ms.
+2022-12-05 18:03:22.846: Car 130 has been washed successfully.
+2022-12-05 18:03:22.846: Car 139 is being washed for 7000ms.
+2022-12-05 18:03:23.637: Car 121 has been cleaned successfully.
+2022-12-05 18:03:23.637: Car 133 is being cleaned for 5000ms.
+2022-12-05 18:03:23.962: Car 135 has been washed successfully.
+2022-12-05 18:03:23.962: All washing lines are occupied. Car 135 waits ...
+2022-12-05 18:03:23.962: Car 141 is being washed for 6000ms.
+2022-12-05 18:03:24.807: Car 134 has been washed successfully.
+2022-12-05 18:03:24.807: Car 142 is being washed for 8000ms.
+2022-12-05 18:03:26.858: Car 126 has been washed successfully.
+2022-12-05 18:03:26.858: Car 143 is being washed for 7000ms.
+2022-12-05 18:03:28.649: Car 133 has been cleaned successfully.
+2022-12-05 18:03:28.649: Car 135 is being cleaned for 5000ms.
+2022-12-05 18:03:28.82: Car 136 has been washed successfully.
+2022-12-05 18:03:28.82: Car 144 is being washed for 7000ms.
+2022-12-05 18:03:29.85: Car 139 has been washed successfully.
+2022-12-05 18:03:29.85: All washing lines are occupied. Car 139 waits ...
+2022-12-05 18:03:29.85: Car 129 is being washed for 5000ms.
+2022-12-05 18:03:29.975: Car 141 has been washed successfully.
+2022-12-05 18:03:29.975: All washing lines are occupied. Car 141 waits ...
+2022-12-05 18:03:29.975: Car 147 is being washed for 8000ms.
+2022-12-05 18:03:31.827: Car 132 has been cleaned successfully.
+2022-12-05 18:03:31.827: Car 139 is being cleaned for 15000ms.
+2022-12-05 18:03:31.859: Car 125 has been cleaned successfully.
+2022-12-05 18:03:31.859: Car 141 is being cleaned for 5000ms.
+2022-12-05 18:03:32.815: Car 142 has been washed successfully.
+2022-12-05 18:03:32.815: All washing lines are occupied. Car 142 waits ...
+2022-12-05 18:03:32.815: Car 137 is being washed for 6000ms.
+2022-12-05 18:03:33.653: Car 135 has been cleaned successfully.
+2022-12-05 18:03:33.653: Car 142 is being cleaned for 5000ms.
+2022-12-05 18:03:33.857: Car 131 has been cleaned successfully.
+2022-12-05 18:03:33.872: Car 143 has been washed successfully.
+2022-12-05 18:03:33.872: Car 143 is being cleaned for 5000ms.
+2022-12-05 18:03:33.872: Car 140 is being washed for 7000ms.
+2022-12-05 18:03:34.854: Car 129 has been washed successfully.
+2022-12-05 18:03:34.854: Car 149 is being washed for 10000ms.
+2022-12-05 18:03:35.821: Car 144 has been washed successfully.
+2022-12-05 18:03:35.821: All washing lines are occupied. Car 144 waits ...
+2022-12-05 18:03:35.821: Car 150 is being washed for 5000ms.
+2022-12-05 18:03:36.861: Car 141 has been cleaned successfully.
+2022-12-05 18:03:36.861: Car 144 is being cleaned for 15000ms.
+2022-12-05 18:03:37.982: Car 147 has been washed successfully.
+2022-12-05 18:03:37.982: All washing lines are occupied. Car 147 waits ...
+2022-12-05 18:03:37.982: Car 138 is being washed for 7000ms.
+2022-12-05 18:03:38.664: Car 142 has been cleaned successfully.
+2022-12-05 18:03:38.664: Car 147 is being cleaned for 5000ms.
+2022-12-05 18:03:38.819: Car 137 has been washed successfully.
+2022-12-05 18:03:38.819: Car 146 is being washed for 7000ms.
+2022-12-05 18:03:38.88: Car 143 has been cleaned successfully.
+2022-12-05 18:03:40.833: Car 150 has been washed successfully.
+2022-12-05 18:03:40.833: Car 150 is being cleaned for 15000ms.
+2022-12-05 18:03:40.833: Car 153 is being washed for 6000ms.
+2022-12-05 18:03:40.879: Car 140 has been washed successfully.
+2022-12-05 18:03:40.879: Car 151 is being washed for 8000ms.
+2022-12-05 18:03:43.665: Car 147 has been cleaned successfully.
+2022-12-05 18:03:44.859: Car 149 has been washed successfully.
+2022-12-05 18:03:44.859: Car 149 is being cleaned for 10000ms.
+2022-12-05 18:03:44.859: Car 154 is being washed for 5000ms.
+2022-12-05 18:03:44.982: Car 138 has been washed successfully.
+2022-12-05 18:03:44.982: Car 145 is being washed for 8000ms.
+2022-12-05 18:03:45.822: Car 146 has been washed successfully.
+2022-12-05 18:03:45.822: Car 148 is being washed for 5000ms.
+2022-12-05 18:03:46.83: Car 139 has been cleaned successfully.
+2022-12-05 18:03:46.845: Car 153 has been washed successfully.
+2022-12-05 18:03:46.845: Car 152 is being washed for 9000ms.
+2022-12-05 18:03:46.845: Car 153 is being cleaned for 5000ms.
+2022-12-05 18:03:48.882: Car 151 has been washed successfully.
+2022-12-05 18:03:48.882: All washing lines are occupied. Car 151 waits ...
+2022-12-05 18:03:49.865: Car 154 has been washed successfully.
+2022-12-05 18:03:49.865: All washing lines are occupied. Car 154 waits ...
+2022-12-05 18:03:50.826: Car 148 has been washed successfully.
+2022-12-05 18:03:51.852: Car 153 has been cleaned successfully.
+2022-12-05 18:03:51.852: Car 151 is being cleaned for 5000ms.
+2022-12-05 18:03:51.867: Car 144 has been cleaned successfully.
+2022-12-05 18:03:51.867: Car 154 is being cleaned for 5000ms.
+2022-12-05 18:03:52.99: Car 145 has been washed successfully.
+2022-12-05 18:03:54.864: Car 149 has been cleaned successfully.
+2022-12-05 18:03:55.838: Car 150 has been cleaned successfully.
+2022-12-05 18:03:55.853: Car 152 has been washed successfully.
+2022-12-05 18:03:56.854: Car 151 has been cleaned successfully.
+2022-12-05 18:03:56.87: Car 154 has been cleaned successfully.

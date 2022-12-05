@@ -7,10 +7,11 @@ import java.util.concurrent.locks.ReentrantLock;
 public class WashingLineCollection {
     private final ReentrantLock lock = new ReentrantLock();
     private final Condition condition = lock.newCondition();
+    private final Synchronizer<WashingLine> synchronizer = new Synchronizer<>(lock);
+    private final Synchronizer<Void> voidSynchronizer = new Synchronizer<>(lock);
     private final List<WashingLine> washingLines = new ArrayList<>();
 
     public WashingLineCollection(int countOfWashingLines, WashParkRandomizer randomizer) {
-
         for (int i = 0; i < countOfWashingLines; i++) {
             washingLines.add(new WashingLine(randomizer));
         }
@@ -26,24 +27,22 @@ public class WashingLineCollection {
     }
 
     public WashingLine getWashingLine(Car car) {
-        lock.lock();
+        return synchronizer.execute(() -> {
+            try {
+                while (!hasAvailableWashingLine()) {
+                    System.out.println(
+                            new Timestamp(System.currentTimeMillis()) + ": All washing lines are occupied. Car " + car.id
+                                    + " waits ...");
 
-        try {
-            while (!hasAvailableWashingLine()) {
-                System.out.println(
-                        new Timestamp(System.currentTimeMillis()) + ": All washing lines are occupied. Car " + car.id
-                                + " waits ...");
+                    condition.await();
+                }
 
-                condition.await();
+                return getAvailableWashingLine();
+            } catch (InterruptedException e) {
+                System.out.println("Exception occurred waiting for an available washing line: " + e.getMessage());
+                return null;
             }
-
-            return getAvailableWashingLine();
-        } catch (InterruptedException e) {
-            System.out.println("Exception occurred waiting for an available washing line: " + e.getMessage());
-            return null;
-        } finally {
-            lock.unlock();
-        }
+        });
     }
 
     public boolean hasAvailableWashingLine() {
@@ -51,25 +50,18 @@ public class WashingLineCollection {
     }
 
     private WashingLine getAvailableWashingLine() {
-        lock.lock();
-
-        try {
-            return washingLines.stream()
-                    .filter(WashingLine::isAvailable)
-                    .findFirst()
-                    .orElse(null);
-        } finally {
-            lock.unlock();
-        }
+        return synchronizer.execute(() -> washingLines.stream()
+                .filter(WashingLine::isAvailable)
+                .findFirst()
+                .orElse(null)
+        );
     }
 
     private void updateAvailableWashingLines() {
-        lock.lock();
-        try {
+        voidSynchronizer.execute(() -> {
             condition.signal();
-        } finally {
-            lock.unlock();
-        }
+            return null;
+        });
     }
 
 }

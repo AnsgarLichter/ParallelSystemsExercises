@@ -1,5 +1,3 @@
-import java.util.concurrent.locks.ReentrantLock;
-
 public class Car implements Runnable {
     private static int counter = 1;
 
@@ -7,8 +5,6 @@ public class Car implements Runnable {
 
 
     private final CarWashPark carWashPark;
-    private final ReentrantLock lock = new ReentrantLock();
-
     private final boolean needsIndoorCleaning;
 
     public Car(CarWashPark carWashPark, boolean needsIndoorCleaning) {
@@ -32,24 +28,12 @@ public class Car implements Runnable {
     }
 
     private void wash() {
-        lock.lock();
-
-        try {
-            WashingLineCollection washingLines = carWashPark.getWashingLines();
-            washingLines.wash(this);
-        } finally {
-            lock.unlock();
-        }
+        WashingLineCollection washingLines = carWashPark.getWashingLines();
+        washingLines.wash(this);
     }
 
     private void cleanIndoor() {
-        lock.lock();
-
-        try {
-            IndoorCleaningBoxCollection indoorCleaningBoxes = carWashPark.getIndoorCleaningBoxes();
-            indoorCleaningBoxes.clean(this);
-        } finally {
-            lock.unlock();
-        }
+        IndoorCleaningBoxCollection indoorCleaningBoxes = carWashPark.getIndoorCleaningBoxes();
+        indoorCleaningBoxes.clean(this);
     }
 }

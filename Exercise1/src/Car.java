@@ -5,7 +5,7 @@ public class Car extends Thread {
 
     public final int id;
 
-    private boolean needsIndoorCleaning;
+    private final boolean needsIndoorCleaning;
 
     public Car(CarWashPark carWashPark, boolean needsIndoorCleaning) {
         this.carWashPark = carWashPark;

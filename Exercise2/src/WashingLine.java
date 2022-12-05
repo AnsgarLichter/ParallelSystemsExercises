@@ -1,12 +1,9 @@
 import java.sql.Timestamp;
-import java.util.concurrent.TimeUnit;
-import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class WashingLine {
     private final WashParkRandomizer randomizer;
-    private final ReentrantLock lock = new ReentrantLock();
-    private final Condition condition = lock.newCondition();
+    private final Synchronizer<Void> synchronizer = new Synchronizer<>(new ReentrantLock());
 
     private volatile boolean isAvailable;
 
@@ -16,40 +13,36 @@ public class WashingLine {
     }
 
     public void enter() {
-        lock.lock();
-        try {
+        synchronizer.execute(() -> {
             this.isAvailable = false;
-        } finally {
-            lock.unlock();
-        }
+            return null;
+        });
     }
 
     public void wash(Car car) {
-        lock.lock();
+        synchronizer.execute(() -> {
+            try {
+                long washingTime = this.randomizer.getWashingTime() * 1000L;
+                System.out.println(new Timestamp(System.currentTimeMillis()) + ": Car " + car.id
+                        + " is being washed for " + washingTime + "ms.");
 
-        try {
-            long washingTime = this.randomizer.getWashingTime() * 1000L;
-            System.out.println(new Timestamp(System.currentTimeMillis()) + ": Car " + car.id
-                    + " is being washed for " + washingTime + "ms.");
+                Thread.sleep(washingTime);
 
-            condition.await(washingTime, TimeUnit.MILLISECONDS);
+                System.out.println(new Timestamp(System.currentTimeMillis()) + ": Car " + car.id
+                        + " has been washed successfully.");
+            } catch (Exception e) {
+                System.out.println("Exception occurred washing the car: " + e.getMessage());
+            }
 
-            System.out.println(new Timestamp(System.currentTimeMillis()) + ": Car " + car.id
-                    + " has been washed successfully.");
-        } catch (Exception e) {
-            System.out.println("Exception occurred washing the car: " + e.getMessage());
-        } finally {
-            lock.unlock();
-        }
+            return null;
+        });
     }
 
     public void leave() {
-        lock.lock();
-        try {
+        synchronizer.execute(() -> {
             this.isAvailable = true;
-        } finally {
-            lock.unlock();
-        }
+            return null;
+        });
     }
 
     public boolean isAvailable() {
