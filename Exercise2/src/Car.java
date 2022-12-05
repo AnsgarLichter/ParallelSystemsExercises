@@ -1,10 +1,10 @@
-public class Car extends Thread {
+public class Car implements Runnable {
     private static int counter = 1;
-
-    private final CarWashPark carWashPark;
 
     public final int id;
 
+
+    private final CarWashPark carWashPark;
     private final boolean needsIndoorCleaning;
 
     public Car(CarWashPark carWashPark, boolean needsIndoorCleaning) {
@@ -27,12 +27,12 @@ public class Car extends Thread {
         this.cleanIndoor();
     }
 
-    private synchronized void wash() {
+    private void wash() {
         WashingLineCollection washingLines = carWashPark.getWashingLines();
         washingLines.wash(this);
     }
 
-    private synchronized void cleanIndoor() {
+    private void cleanIndoor() {
         IndoorCleaningBoxCollection indoorCleaningBoxes = carWashPark.getIndoorCleaningBoxes();
         indoorCleaningBoxes.clean(this);
     }
