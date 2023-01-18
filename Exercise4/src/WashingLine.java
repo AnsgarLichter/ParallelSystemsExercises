@@ -41,7 +41,6 @@ public class WashingLine {
 
     public void leave() {
         synchronizer.execute(() -> {
-            System.out.println("Leave washing line");
             this.isAvailable = true;
             return null;
         });

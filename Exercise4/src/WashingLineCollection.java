@@ -15,7 +15,7 @@ public class WashingLineCollection {
 
     public void wash(Car car) {
         WashingLine washingLine = this.getWashingLine(car);
-        System.out.println("Found available washing line ... wash now");
+        System.out.println("Found available washing line ... wash now"); //TODO: Remove
         washingLine.enter();
         washingLine.wash(car);
         washingLine.leave();
@@ -25,21 +25,21 @@ public class WashingLineCollection {
 
     public WashingLine getWashingLine(Car car) {
         return synchronizer.execute(() -> {
-            System.out.println("Search available washing line");
+            System.out.println("Search available washing line"); //TODO: Remove
 
             try {
                 while (!hasAvailableWashingLine()) {
-                    System.out.println("No washing line available ... wait");
+                    System.out.println("No washing line available ... wait"); //TODO: Remove
 
                     System.out.println(
                             new Timestamp(System.currentTimeMillis()) + ": All washing lines are occupied. Car " + car.id
                                     + " waits ...");
 
                     semaphore.wait();
-                    System.out.println("Wait finished");
+                    System.out.println("Wait finished"); //TODO: Remove
                 }
 
-                System.out.println("Found available washing line");
+                System.out.println("Found available washing line"); //TODO: Remove
 
                 return getAvailableWashingLine();
             } catch (InterruptedException e) {
@@ -62,9 +62,9 @@ public class WashingLineCollection {
 
     private void updateAvailableWashingLines() {
         synchronizer.execute(() -> {
-            System.out.println("Notify");
+            System.out.println("Notify"); //TODO: Remove
             semaphore.notify(); //TODO: Error current thread is not owner
-            System.out.println("Notified");
+            System.out.println("Notified"); //TODO: Remove
             return null;
         });
 

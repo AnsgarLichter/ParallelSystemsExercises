@@ -10,16 +10,16 @@ public class Synchronizer<T> {
 
     public T execute(Operation<T> operation) {
         try {
-            System.out.println("Semaphore acquire");
+            System.out.println("Semaphore acquire"); //TODO: Remove
             semaphore.acquire();
-            System.out.println("Semaphore acquired");
+            System.out.println("Semaphore acquired"); //TODO: Remove
             return operation.execute();
         } catch (InterruptedException e) {
             System.out.println("Exception occurred trying to execute an operation: " + e.getMessage());
             return null;
         } finally {
             semaphore.release();
-            System.out.println("Semaphore released");
+            System.out.println("Semaphore released"); //TODO: Remove
         }
     }
 }
