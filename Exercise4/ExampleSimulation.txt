@@ -1,0 +1,574 @@
+2023-01-19 20:20:14.309: We are currently in the 1. hour. We have in total 0 Cars this hour.
+2023-01-19 20:20:14.339: 5 Cars arrived at the wash park.
+2023-01-19 20:20:14.35: Car 5 is being washed for 9000ms.
+2023-01-19 20:20:14.349: Car 1 is being washed for 6000ms.
+2023-01-19 20:20:14.35: Car 4 is being washed for 8000ms.
+2023-01-19 20:20:14.349: Car 2 is being washed for 10000ms.
+2023-01-19 20:20:14.35: Car 3 is being cleaned for 15000ms.
+2023-01-19 20:20:19.305: We are currently in the 1. hour. We have in total 5 Cars this hour.
+2023-01-19 20:20:19.305: 4 Cars arrived at the wash park.
+2023-01-19 20:20:19.306: Car 6 is being cleaned for 15000ms.
+2023-01-19 20:20:19.306: Car 7 is being washed for 7000ms.
+2023-01-19 20:20:19.306: Car 9 is being cleaned for 5000ms.
+2023-01-19 20:20:20.371: Car 1 has been washed successfully.
+2023-01-19 20:20:20.372: Car 8 is being washed for 8000ms.
+2023-01-19 20:20:22.368: Car 4 has been washed successfully.
+2023-01-19 20:20:23.368: Car 5 has been washed successfully.
+2023-01-19 20:20:24.315: We are currently in the 1. hour. We have in total 9 Cars this hour.
+2023-01-19 20:20:24.315: 5 Cars arrived at the wash park.
+2023-01-19 20:20:24.315: Car 9 has been cleaned successfully.
+2023-01-19 20:20:24.315: Car 9 is being washed for 7000ms.
+2023-01-19 20:20:24.315: Car 10 is being washed for 8000ms.
+2023-01-19 20:20:24.315: Car 12 is being cleaned for 15000ms.
+2023-01-19 20:20:24.368: Car 2 has been washed successfully.
+2023-01-19 20:20:24.368: Car 11 is being washed for 5000ms.
+2023-01-19 20:20:26.315: Car 7 has been washed successfully.
+2023-01-19 20:20:26.315: Car 13 is being washed for 8000ms.
+2023-01-19 20:20:28.375: Car 8 has been washed successfully.
+2023-01-19 20:20:28.375: Car 14 is being washed for 5000ms.
+2023-01-19 20:20:29.308: We are currently in the 1. hour. We have in total 14 Cars this hour.
+2023-01-19 20:20:29.308: 3 Cars arrived at the wash park.
+2023-01-19 20:20:29.308: Car 15 is being cleaned for 5000ms.
+2023-01-19 20:20:29.372: Car 11 has been washed successfully.
+2023-01-19 20:20:29.372: Car 3 has been cleaned successfully.
+2023-01-19 20:20:29.372: Car 16 is being washed for 10000ms.
+2023-01-19 20:20:31.323: Car 9 has been washed successfully.
+2023-01-19 20:20:31.323: Car 17 is being washed for 9000ms.
+2023-01-19 20:20:32.33: Car 10 has been washed successfully.
+2023-01-19 20:20:32.33: Car 3 is being washed for 8000ms.
+2023-01-19 20:20:33.375: Car 14 has been washed successfully.
+2023-01-19 20:20:34.313: Car 6 has been cleaned successfully.
+2023-01-19 20:20:34.313: Car 15 has been cleaned successfully.
+2023-01-19 20:20:34.313: We are currently in the 1. hour. We have in total 17 Cars this hour.
+2023-01-19 20:20:34.313: Car 6 is being washed for 10000ms.
+2023-01-19 20:20:34.313: 5 Cars arrived at the wash park.
+2023-01-19 20:20:34.313: Car 18 is being cleaned for 5000ms.
+2023-01-19 20:20:34.313: Car 21 is being cleaned for 10000ms.
+2023-01-19 20:20:34.328: Car 13 has been washed successfully.
+2023-01-19 20:20:34.328: Car 15 is being washed for 6000ms.
+2023-01-19 20:20:39.31: We are currently in the 1. hour. We have in total 22 Cars this hour.
+2023-01-19 20:20:39.31: 3 Cars arrived at the wash park.
+2023-01-19 20:20:39.311: Car 24 is being cleaned for 10000ms.
+2023-01-19 20:20:39.325: Car 18 has been cleaned successfully.
+2023-01-19 20:20:39.325: Car 12 has been cleaned successfully.
+2023-01-19 20:20:39.373: Car 16 has been washed successfully.
+2023-01-19 20:20:39.373: Car 19 is being washed for 9000ms.
+2023-01-19 20:20:40.335: Car 15 has been washed successfully.
+2023-01-19 20:20:40.335: Car 3 has been washed successfully.
+2023-01-19 20:20:40.335: Car 17 has been washed successfully.
+2023-01-19 20:20:40.335: Car 20 is being washed for 9000ms.
+2023-01-19 20:20:40.335: Car 23 is being washed for 9000ms.
+2023-01-19 20:20:40.335: Car 22 is being washed for 8000ms.
+2023-01-19 20:20:44.315: Car 21 has been cleaned successfully.
+2023-01-19 20:20:44.315: Car 6 has been washed successfully.
+2023-01-19 20:20:44.315: We are currently in the 1. hour. We have in total 25 Cars this hour.
+2023-01-19 20:20:44.315: Car 25 is being washed for 6000ms.
+2023-01-19 20:20:44.315: 3 Cars arrived at the wash park.
+2023-01-19 20:20:44.315: Car 27 is being cleaned for 5000ms.
+2023-01-19 20:20:48.349: Car 22 has been washed successfully.
+2023-01-19 20:20:48.349: Car 18 is being washed for 5000ms.
+2023-01-19 20:20:48.38: Car 19 has been washed successfully.
+2023-01-19 20:20:48.38: Car 12 is being washed for 7000ms.
+2023-01-19 20:20:49.317: Car 27 has been cleaned successfully.
+2023-01-19 20:20:49.317: Car 24 has been cleaned successfully.
+2023-01-19 20:20:49.317: We are currently in the 1. hour. We have in total 28 Cars this hour.
+2023-01-19 20:20:49.317: 5 Cars arrived at the wash park.
+2023-01-19 20:20:49.317: Car 30 is being cleaned for 15000ms.
+2023-01-19 20:20:49.318: Car 33 is being cleaned for 5000ms.
+2023-01-19 20:20:49.349: Car 20 has been washed successfully.
+2023-01-19 20:20:49.349: Car 23 has been washed successfully.
+2023-01-19 20:20:49.349: Car 21 is being washed for 6000ms.
+2023-01-19 20:20:49.349: Car 26 is being washed for 10000ms.
+2023-01-19 20:20:50.316: Car 25 has been washed successfully.
+2023-01-19 20:20:50.316: Car 28 is being washed for 9000ms.
+2023-01-19 20:20:53.355: Car 18 has been washed successfully.
+2023-01-19 20:20:53.355: Car 27 is being washed for 7000ms.
+2023-01-19 20:20:54.312: We are currently in the 1. hour. We have in total 33 Cars this hour.
+2023-01-19 20:20:54.312: 4 Cars arrived at the wash park.
+2023-01-19 20:20:54.312: Car 36 is being cleaned for 15000ms.
+2023-01-19 20:20:54.328: Car 33 has been cleaned successfully.
+2023-01-19 20:20:55.363: Car 21 has been washed successfully.
+2023-01-19 20:20:55.363: Car 24 is being washed for 7000ms.
+2023-01-19 20:20:55.395: Car 12 has been washed successfully.
+2023-01-19 20:20:55.395: Car 29 is being washed for 10000ms.
+2023-01-19 20:20:59.309: We are currently in the 1. hour. We have in total 37 Cars this hour.
+2023-01-19 20:20:59.309: 3 Cars arrived at the wash park.
+2023-01-19 20:20:59.309: Car 39 is being cleaned for 10000ms.
+2023-01-19 20:20:59.324: Car 28 has been washed successfully.
+2023-01-19 20:20:59.324: Car 31 is being washed for 5000ms.
+2023-01-19 20:20:59.356: Car 26 has been washed successfully.
+2023-01-19 20:20:59.356: Car 32 is being washed for 7000ms.
+2023-01-19 20:21:00.357: Car 27 has been washed successfully.
+2023-01-19 20:21:00.357: Car 34 is being washed for 5000ms.
+2023-01-19 20:21:02.375: Car 24 has been washed successfully.
+2023-01-19 20:21:02.375: Car 35 is being washed for 8000ms.
+2023-01-19 20:21:04.315: We are currently in the 1. hour. We have in total 40 Cars this hour.
+2023-01-19 20:21:04.315: 5 Cars arrived at the wash park.
+2023-01-19 20:21:04.315: Car 42 is being cleaned for 5000ms.
+2023-01-19 20:21:04.331: Car 31 has been washed successfully.
+2023-01-19 20:21:04.331: Car 30 has been cleaned successfully.
+2023-01-19 20:21:04.331: Car 37 is being washed for 5000ms.
+2023-01-19 20:21:05.362: Car 34 has been washed successfully.
+2023-01-19 20:21:05.362: Car 33 is being washed for 9000ms.
+2023-01-19 20:21:05.409: Car 29 has been washed successfully.
+2023-01-19 20:21:05.409: Car 38 is being washed for 10000ms.
+2023-01-19 20:21:06.358: Car 32 has been washed successfully.
+2023-01-19 20:21:06.358: Car 40 is being washed for 6000ms.
+2023-01-19 20:21:09.317: Car 36 has been cleaned successfully.
+2023-01-19 20:21:09.317: Car 42 has been cleaned successfully.
+2023-01-19 20:21:09.317: Car 39 has been cleaned successfully.
+2023-01-19 20:21:09.317: We are currently in the 1. hour. We have in total 45 Cars this hour.
+2023-01-19 20:21:09.317: 4 Cars arrived at the wash park.
+2023-01-19 20:21:09.317: Car 48 is being cleaned for 5000ms.
+2023-01-19 20:21:09.333: Car 37 has been washed successfully.
+2023-01-19 20:21:09.333: Car 41 is being washed for 6000ms.
+2023-01-19 20:21:10.378: Car 35 has been washed successfully.
+2023-01-19 20:21:10.378: Car 44 is being washed for 6000ms.
+2023-01-19 20:21:12.37: Car 40 has been washed successfully.
+2023-01-19 20:21:12.37: Car 43 is being washed for 8000ms.
+2023-01-19 20:21:14.308: We are currently in the 2. hour. We have in total 0 Cars this hour.
+2023-01-19 20:21:14.308: 6 Cars arrived at the wash park.
+2023-01-19 20:21:14.308: Car 53 is being cleaned for 10000ms.
+2023-01-19 20:21:14.324: Car 48 has been cleaned successfully.
+2023-01-19 20:21:14.371: Car 33 has been washed successfully.
+2023-01-19 20:21:14.371: Car 45 is being washed for 8000ms.
+2023-01-19 20:21:15.338: Car 41 has been washed successfully.
+2023-01-19 20:21:15.338: Car 30 is being washed for 6000ms.
+2023-01-19 20:21:15.414: Car 38 has been washed successfully.
+2023-01-19 20:21:15.414: Car 36 is being washed for 8000ms.
+2023-01-19 20:21:16.387: Car 44 has been washed successfully.
+2023-01-19 20:21:16.387: Car 42 is being washed for 10000ms.
+2023-01-19 20:21:19.306: We are currently in the 2. hour. We have in total 6 Cars this hour.
+2023-01-19 20:21:19.306: 6 Cars arrived at the wash park.
+2023-01-19 20:21:19.306: Car 57 is being cleaned for 15000ms.
+2023-01-19 20:21:19.307: Car 61 is being cleaned for 15000ms.
+2023-01-19 20:21:20.38: Car 43 has been washed successfully.
+2023-01-19 20:21:20.38: Car 39 is being washed for 7000ms.
+2023-01-19 20:21:21.347: Car 30 has been washed successfully.
+2023-01-19 20:21:21.347: Car 46 is being washed for 10000ms.
+2023-01-19 20:21:22.373: Car 45 has been washed successfully.
+2023-01-19 20:21:22.373: Car 45 is being cleaned for 10000ms.
+2023-01-19 20:21:22.373: Car 49 is being washed for 8000ms.
+2023-01-19 20:21:23.415: Car 36 has been washed successfully.
+2023-01-19 20:21:23.415: Car 47 is being washed for 7000ms.
+2023-01-19 20:21:24.317: Car 53 has been cleaned successfully.
+2023-01-19 20:21:24.317: We are currently in the 2. hour. We have in total 12 Cars this hour.
+2023-01-19 20:21:24.317: 5 Cars arrived at the wash park.
+2023-01-19 20:21:24.317: Car 65 is being cleaned for 15000ms.
+2023-01-19 20:21:26.39: Car 42 has been washed successfully.
+2023-01-19 20:21:26.39: Car 50 is being washed for 7000ms.
+2023-01-19 20:21:27.393: Car 39 has been washed successfully.
+2023-01-19 20:21:27.393: Car 51 is being washed for 7000ms.
+2023-01-19 20:21:29.314: We are currently in the 2. hour. We have in total 17 Cars this hour.
+2023-01-19 20:21:29.314: 7 Cars arrived at the wash park.
+2023-01-19 20:21:30.376: Car 49 has been washed successfully.
+2023-01-19 20:21:30.376: Car 52 is being washed for 9000ms.
+2023-01-19 20:21:30.423: Car 47 has been washed successfully.
+2023-01-19 20:21:30.423: Car 54 is being washed for 8000ms.
+2023-01-19 20:21:31.358: Car 46 has been washed successfully.
+2023-01-19 20:21:31.358: Car 55 is being washed for 6000ms.
+2023-01-19 20:21:32.386: Car 45 has been cleaned successfully.
+2023-01-19 20:21:33.403: Car 50 has been washed successfully.
+2023-01-19 20:21:33.403: Car 48 is being washed for 6000ms.
+2023-01-19 20:21:34.309: Car 61 has been cleaned successfully.
+2023-01-19 20:21:34.309: Car 57 has been cleaned successfully.
+2023-01-19 20:21:34.309: We are currently in the 2. hour. We have in total 24 Cars this hour.
+2023-01-19 20:21:34.309: 7 Cars arrived at the wash park.
+2023-01-19 20:21:34.309: Car 77 is being cleaned for 10000ms.
+2023-01-19 20:21:34.401: Car 51 has been washed successfully.
+2023-01-19 20:21:34.401: Car 58 is being washed for 6000ms.
+2023-01-19 20:21:37.359: Car 55 has been washed successfully.
+2023-01-19 20:21:37.359: Car 56 is being washed for 10000ms.
+2023-01-19 20:21:38.438: Car 54 has been washed successfully.
+2023-01-19 20:21:38.438: Car 59 is being washed for 10000ms.
+2023-01-19 20:21:39.314: We are currently in the 2. hour. We have in total 31 Cars this hour.
+2023-01-19 20:21:39.314: 5 Cars arrived at the wash park.
+2023-01-19 20:21:39.314: Car 81 is being cleaned for 5000ms.
+2023-01-19 20:21:39.314: Car 85 is being cleaned for 5000ms.
+2023-01-19 20:21:39.33: Car 65 has been cleaned successfully.
+2023-01-19 20:21:39.377: Car 52 has been washed successfully.
+2023-01-19 20:21:39.377: Car 60 is being washed for 10000ms.
+2023-01-19 20:21:39.409: Car 48 has been washed successfully.
+2023-01-19 20:21:39.409: Car 53 is being washed for 8000ms.
+2023-01-19 20:21:40.402: Car 58 has been washed successfully.
+2023-01-19 20:21:40.402: Car 62 is being washed for 10000ms.
+2023-01-19 20:21:44.314: Car 77 has been cleaned successfully.
+2023-01-19 20:21:44.314: We are currently in the 2. hour. We have in total 36 Cars this hour.
+2023-01-19 20:21:44.314: 4 Cars arrived at the wash park.
+2023-01-19 20:21:44.314: Car 89 is being cleaned for 5000ms.
+2023-01-19 20:21:44.315: Car 81 has been cleaned successfully.
+2023-01-19 20:21:44.33: Car 85 has been cleaned successfully.
+2023-01-19 20:21:47.365: Car 56 has been washed successfully.
+2023-01-19 20:21:47.365: Car 63 is being washed for 7000ms.
+2023-01-19 20:21:47.413: Car 53 has been washed successfully.
+2023-01-19 20:21:47.413: Car 64 is being washed for 8000ms.
+2023-01-19 20:21:48.444: Car 59 has been washed successfully.
+2023-01-19 20:21:48.444: Car 66 is being washed for 6000ms.
+2023-01-19 20:21:49.303: We are currently in the 2. hour. We have in total 40 Cars this hour.
+2023-01-19 20:21:49.303: 6 Cars arrived at the wash park.
+2023-01-19 20:21:49.303: Car 93 is being cleaned for 10000ms.
+2023-01-19 20:21:49.316: Car 89 has been cleaned successfully.
+2023-01-19 20:21:49.382: Car 60 has been washed successfully.
+2023-01-19 20:21:49.382: Car 67 is being washed for 5000ms.
+2023-01-19 20:21:50.406: Car 62 has been washed successfully.
+2023-01-19 20:21:50.406: Car 68 is being washed for 9000ms.
+2023-01-19 20:21:54.312: We are currently in the 2. hour. We have in total 46 Cars this hour.
+2023-01-19 20:21:54.312: 6 Cars arrived at the wash park.
+2023-01-19 20:21:54.312: Car 97 is being cleaned for 5000ms.
+2023-01-19 20:21:54.318: Car 101 is being cleaned for 15000ms.
+2023-01-19 20:21:54.375: Car 63 has been washed successfully.
+2023-01-19 20:21:54.375: Car 69 is being washed for 6000ms.
+2023-01-19 20:21:54.391: Car 67 has been washed successfully.
+2023-01-19 20:21:54.391: Car 70 is being washed for 6000ms.
+2023-01-19 20:21:54.453: Car 66 has been washed successfully.
+2023-01-19 20:21:54.453: Car 71 is being washed for 6000ms.
+2023-01-19 20:21:55.421: Car 64 has been washed successfully.
+2023-01-19 20:21:55.421: Car 72 is being washed for 10000ms.
+2023-01-19 20:21:59.308: Car 93 has been cleaned successfully.
+2023-01-19 20:21:59.308: We are currently in the 2. hour. We have in total 52 Cars this hour.
+2023-01-19 20:21:59.308: 6 Cars arrived at the wash park.
+2023-01-19 20:21:59.308: Car 105 is being cleaned for 10000ms.
+2023-01-19 20:21:59.324: Car 97 has been cleaned successfully.
+2023-01-19 20:21:59.417: Car 68 has been washed successfully.
+2023-01-19 20:21:59.417: Car 73 is being washed for 8000ms.
+2023-01-19 20:22:00.381: Car 69 has been washed successfully.
+2023-01-19 20:22:00.381: Car 69 is being cleaned for 15000ms.
+2023-01-19 20:22:00.381: Car 61 is being washed for 8000ms.
+2023-01-19 20:22:00.397: Car 70 has been washed successfully.
+2023-01-19 20:22:00.397: Car 57 is being washed for 9000ms.
+2023-01-19 20:22:00.459: Car 71 has been washed successfully.
+2023-01-19 20:22:00.459: Car 74 is being washed for 8000ms.
+2023-01-19 20:22:04.315: We are currently in the 2. hour. We have in total 58 Cars this hour.
+2023-01-19 20:22:04.315: 5 Cars arrived at the wash park.
+2023-01-19 20:22:04.315: Car 109 is being cleaned for 5000ms.
+2023-01-19 20:22:05.433: Car 72 has been washed successfully.
+2023-01-19 20:22:05.433: Car 75 is being washed for 9000ms.
+2023-01-19 20:22:07.429: Car 73 has been washed successfully.
+2023-01-19 20:22:07.429: Car 76 is being washed for 6000ms.
+2023-01-19 20:22:08.393: Car 61 has been washed successfully.
+2023-01-19 20:22:08.393: Car 78 is being washed for 6000ms.
+2023-01-19 20:22:08.47: Car 74 has been washed successfully.
+2023-01-19 20:22:08.47: Car 79 is being washed for 9000ms.
+2023-01-19 20:22:09.306: We are currently in the 2. hour. We have in total 63 Cars this hour.
+2023-01-19 20:22:09.306: 5 Cars arrived at the wash park.
+2023-01-19 20:22:09.322: Car 109 has been cleaned successfully.
+2023-01-19 20:22:09.322: Car 105 has been cleaned successfully.
+2023-01-19 20:22:09.322: Car 73 is being cleaned for 10000ms.
+2023-01-19 20:22:09.322: Car 101 has been cleaned successfully.
+2023-01-19 20:22:09.4: Car 57 has been washed successfully.
+2023-01-19 20:22:09.4: Car 80 is being washed for 6000ms.
+2023-01-19 20:22:13.444: Car 76 has been washed successfully.
+2023-01-19 20:22:13.444: Car 82 is being washed for 7000ms.
+2023-01-19 20:22:14.304: We are currently in the 3. hour. We have in total 0 Cars this hour.
+2023-01-19 20:22:14.304: 5 Cars arrived at the wash park.
+2023-01-19 20:22:14.304: Car 119 is being cleaned for 5000ms.
+2023-01-19 20:22:14.304: Car 118 is being cleaned for 10000ms.
+2023-01-19 20:22:14.396: Car 78 has been washed successfully.
+2023-01-19 20:22:14.396: Car 83 is being washed for 7000ms.
+2023-01-19 20:22:14.442: Car 75 has been washed successfully.
+2023-01-19 20:22:14.442: Car 84 is being washed for 5000ms.
+2023-01-19 20:22:15.394: Car 69 has been cleaned successfully.
+2023-01-19 20:22:15.41: Car 80 has been washed successfully.
+2023-01-19 20:22:15.41: Car 65 is being washed for 6000ms.
+2023-01-19 20:22:17.485: Car 79 has been washed successfully.
+2023-01-19 20:22:17.486: Car 77 is being washed for 8000ms.
+2023-01-19 20:22:19.309: Car 119 has been cleaned successfully.
+2023-01-19 20:22:19.309: We are currently in the 3. hour. We have in total 5 Cars this hour.
+2023-01-19 20:22:19.309: 5 Cars arrived at the wash park.
+2023-01-19 20:22:19.309: Car 124 is being cleaned for 5000ms.
+2023-01-19 20:22:19.309: Car 123 is being cleaned for 10000ms.
+2023-01-19 20:22:19.325: Car 73 has been cleaned successfully.
+2023-01-19 20:22:19.452: Car 84 has been washed successfully.
+2023-01-19 20:22:19.452: Car 86 is being washed for 10000ms.
+2023-01-19 20:22:20.452: Car 82 has been washed successfully.
+2023-01-19 20:22:20.452: Car 87 is being washed for 7000ms.
+2023-01-19 20:22:21.404: Car 83 has been washed successfully.
+2023-01-19 20:22:21.404: Car 88 is being washed for 5000ms.
+2023-01-19 20:22:21.419: Car 65 has been washed successfully.
+2023-01-19 20:22:21.419: Car 81 is being washed for 9000ms.
+2023-01-19 20:22:24.311: Car 124 has been cleaned successfully.
+2023-01-19 20:22:24.311: We are currently in the 3. hour. We have in total 10 Cars this hour.
+2023-01-19 20:22:24.311: Car 118 has been cleaned successfully.
+2023-01-19 20:22:24.311: 5 Cars arrived at the wash park.
+2023-01-19 20:22:24.311: Car 128 is being cleaned for 10000ms.
+2023-01-19 20:22:24.311: Car 129 is being cleaned for 10000ms.
+2023-01-19 20:22:24.311: Car 130 is being cleaned for 5000ms.
+2023-01-19 20:22:25.496: Car 77 has been washed successfully.
+2023-01-19 20:22:25.496: Car 85 is being washed for 9000ms.
+2023-01-19 20:22:26.413: Car 88 has been washed successfully.
+2023-01-19 20:22:26.413: Car 90 is being washed for 6000ms.
+2023-01-19 20:22:27.465: Car 87 has been washed successfully.
+2023-01-19 20:22:27.465: Car 91 is being washed for 8000ms.
+2023-01-19 20:22:29.306: We are currently in the 3. hour. We have in total 15 Cars this hour.
+2023-01-19 20:22:29.306: 3 Cars arrived at the wash park.
+2023-01-19 20:22:29.322: Car 123 has been cleaned successfully.
+2023-01-19 20:22:29.322: Car 130 has been cleaned successfully.
+2023-01-19 20:22:29.462: Car 86 has been washed successfully.
+2023-01-19 20:22:29.462: Car 92 is being washed for 8000ms.
+2023-01-19 20:22:30.428: Car 81 has been washed successfully.
+2023-01-19 20:22:30.428: Car 94 is being washed for 10000ms.
+2023-01-19 20:22:32.426: Car 90 has been washed successfully.
+2023-01-19 20:22:32.426: Car 95 is being washed for 6000ms.
+2023-01-19 20:22:34.304: We are currently in the 3. hour. We have in total 18 Cars this hour.
+2023-01-19 20:22:34.304: 3 Cars arrived at the wash park.
+2023-01-19 20:22:34.304: Car 136 is being cleaned for 15000ms.
+2023-01-19 20:22:34.304: Car 137 is being cleaned for 10000ms.
+2023-01-19 20:22:34.319: Car 129 has been cleaned successfully.
+2023-01-19 20:22:34.319: Car 128 has been cleaned successfully.
+2023-01-19 20:22:34.51: Car 85 has been washed successfully.
+2023-01-19 20:22:34.51: Car 89 is being washed for 8000ms.
+2023-01-19 20:22:35.475: Car 91 has been washed successfully.
+2023-01-19 20:22:35.475: Car 96 is being washed for 9000ms.
+2023-01-19 20:22:37.467: Car 92 has been washed successfully.
+2023-01-19 20:22:37.467: Car 98 is being washed for 7000ms.
+2023-01-19 20:22:38.43: Car 95 has been washed successfully.
+2023-01-19 20:22:38.43: Car 99 is being washed for 5000ms.
+2023-01-19 20:22:39.311: We are currently in the 3. hour. We have in total 21 Cars this hour.
+2023-01-19 20:22:39.311: 5 Cars arrived at the wash park.
+2023-01-19 20:22:39.311: Car 139 is being cleaned for 15000ms.
+2023-01-19 20:22:39.311: Car 141 is being cleaned for 10000ms.
+2023-01-19 20:22:40.429: Car 94 has been washed successfully.
+2023-01-19 20:22:40.429: Car 100 is being washed for 7000ms.
+2023-01-19 20:22:42.514: Car 89 has been washed successfully.
+2023-01-19 20:22:42.514: Car 93 is being washed for 8000ms.
+2023-01-19 20:22:43.434: Car 99 has been washed successfully.
+2023-01-19 20:22:43.434: Car 102 is being washed for 5000ms.
+2023-01-19 20:22:44.306: Car 137 has been cleaned successfully.
+2023-01-19 20:22:44.306: We are currently in the 3. hour. We have in total 26 Cars this hour.
+2023-01-19 20:22:44.306: 4 Cars arrived at the wash park.
+2023-01-19 20:22:44.306: Car 140 is being cleaned for 5000ms.
+2023-01-19 20:22:44.478: Car 96 has been washed successfully.
+2023-01-19 20:22:44.478: Car 98 has been washed successfully.
+2023-01-19 20:22:44.478: Car 103 is being washed for 10000ms.
+2023-01-19 20:22:44.478: Car 104 is being washed for 6000ms.
+2023-01-19 20:22:47.444: Car 100 has been washed successfully.
+2023-01-19 20:22:47.444: Car 106 is being washed for 7000ms.
+2023-01-19 20:22:48.435: Car 102 has been washed successfully.
+2023-01-19 20:22:48.435: Car 107 is being washed for 10000ms.
+2023-01-19 20:22:49.316: Car 141 has been cleaned successfully.
+2023-01-19 20:22:49.316: Car 140 has been cleaned successfully.
+2023-01-19 20:22:49.316: Car 136 has been cleaned successfully.
+2023-01-19 20:22:49.316: We are currently in the 3. hour. We have in total 30 Cars this hour.
+2023-01-19 20:22:49.316: 5 Cars arrived at the wash park.
+2023-01-19 20:22:49.316: Car 149 is being cleaned for 5000ms.
+2023-01-19 20:22:49.316: Car 151 is being cleaned for 15000ms.
+2023-01-19 20:22:49.316: Car 148 is being cleaned for 10000ms.
+2023-01-19 20:22:50.484: Car 104 has been washed successfully.
+2023-01-19 20:22:50.484: Car 97 is being washed for 8000ms.
+2023-01-19 20:22:50.516: Car 93 has been washed successfully.
+2023-01-19 20:22:50.516: Car 108 is being washed for 7000ms.
+2023-01-19 20:22:54.318: Car 149 has been cleaned successfully.
+2023-01-19 20:22:54.318: Car 139 has been cleaned successfully.
+2023-01-19 20:22:54.318: We are currently in the 3. hour. We have in total 35 Cars this hour.
+2023-01-19 20:22:54.318: 4 Cars arrived at the wash park.
+2023-01-19 20:22:54.318: Car 154 is being cleaned for 5000ms.
+2023-01-19 20:22:54.318: Car 153 is being cleaned for 15000ms.
+2023-01-19 20:22:54.445: Car 106 has been washed successfully.
+2023-01-19 20:22:54.445: Car 110 is being washed for 8000ms.
+2023-01-19 20:22:54.491: Car 103 has been washed successfully.
+2023-01-19 20:22:54.491: Car 111 is being washed for 5000ms.
+2023-01-19 20:22:57.524: Car 108 has been washed successfully.
+2023-01-19 20:22:57.524: Car 112 is being washed for 5000ms.
+2023-01-19 20:22:58.441: Car 107 has been washed successfully.
+2023-01-19 20:22:58.441: Car 114 is being washed for 10000ms.
+2023-01-19 20:22:58.488: Car 97 has been washed successfully.
+2023-01-19 20:22:58.488: Car 115 is being washed for 5000ms.
+2023-01-19 20:22:59.311: We are currently in the 3. hour. We have in total 39 Cars this hour.
+2023-01-19 20:22:59.311: 3 Cars arrived at the wash park.
+2023-01-19 20:22:59.326: Car 148 has been cleaned successfully.
+2023-01-19 20:22:59.326: Car 154 has been cleaned successfully.
+2023-01-19 20:22:59.499: Car 111 has been washed successfully.
+2023-01-19 20:22:59.499: Car 113 is being washed for 9000ms.
+2023-01-19 20:23:02.452: Car 110 has been washed successfully.
+2023-01-19 20:23:02.452: Car 116 is being washed for 6000ms.
+2023-01-19 20:23:02.531: Car 112 has been washed successfully.
+2023-01-19 20:23:02.531: Car 117 is being washed for 6000ms.
+2023-01-19 20:23:03.494: Car 115 has been washed successfully.
+2023-01-19 20:23:03.494: Car 109 is being washed for 9000ms.
+2023-01-19 20:23:04.306: We are currently in the 3. hour. We have in total 42 Cars this hour.
+2023-01-19 20:23:04.306: 4 Cars arrived at the wash park.
+2023-01-19 20:23:04.306: Car 160 is being cleaned for 15000ms.
+2023-01-19 20:23:04.306: Car 162 is being cleaned for 15000ms.
+2023-01-19 20:23:04.321: Car 151 has been cleaned successfully.
+2023-01-19 20:23:08.453: Car 114 has been washed successfully.
+2023-01-19 20:23:08.453: Car 116 has been washed successfully.
+2023-01-19 20:23:08.453: Car 105 is being washed for 7000ms.
+2023-01-19 20:23:08.453: Car 101 is being washed for 8000ms.
+2023-01-19 20:23:08.514: Car 113 has been washed successfully.
+2023-01-19 20:23:08.514: Car 113 is being cleaned for 10000ms.
+2023-01-19 20:23:08.514: Car 120 is being washed for 9000ms.
+2023-01-19 20:23:08.546: Car 117 has been washed successfully.
+2023-01-19 20:23:08.546: Car 121 is being washed for 8000ms.
+2023-01-19 20:23:09.314: We are currently in the 3. hour. We have in total 46 Cars this hour.
+2023-01-19 20:23:09.314: 4 Cars arrived at the wash park.
+2023-01-19 20:23:09.329: Car 153 has been cleaned successfully.
+2023-01-19 20:23:09.329: Car 117 is being cleaned for 15000ms.
+2023-01-19 20:23:12.495: Car 109 has been washed successfully.
+2023-01-19 20:23:12.495: Car 122 is being washed for 8000ms.
+2023-01-19 20:23:15.466: Car 105 has been washed successfully.
+2023-01-19 20:23:15.466: Car 119 is being washed for 7000ms.
+2023-01-19 20:23:16.464: Car 101 has been washed successfully.
+2023-01-19 20:23:16.464: Car 125 is being washed for 10000ms.
+2023-01-19 20:23:16.557: Car 121 has been washed successfully.
+2023-01-19 20:23:16.557: Car 126 is being washed for 6000ms.
+2023-01-19 20:23:17.521: Car 120 has been washed successfully.
+2023-01-19 20:23:17.521: Car 127 is being washed for 5000ms.
+2023-01-19 20:23:18.528: Car 113 has been cleaned successfully.
+2023-01-19 20:23:18.528: Car 121 is being cleaned for 10000ms.
+2023-01-19 20:23:19.321: Car 162 has been cleaned successfully.
+2023-01-19 20:23:19.321: Car 160 has been cleaned successfully.
+2023-01-19 20:23:19.321: Car 120 is being cleaned for 10000ms.
+2023-01-19 20:23:20.51: Car 122 has been washed successfully.
+2023-01-19 20:23:20.51: Car 122 is being cleaned for 15000ms.
+2023-01-19 20:23:20.51: Car 124 is being washed for 10000ms.
+2023-01-19 20:23:22.471: Car 119 has been washed successfully.
+2023-01-19 20:23:22.471: Car 118 is being washed for 9000ms.
+2023-01-19 20:23:22.534: Car 127 has been washed successfully.
+2023-01-19 20:23:22.534: Car 131 is being washed for 6000ms.
+2023-01-19 20:23:22.565: Car 126 has been washed successfully.
+2023-01-19 20:23:22.565: Car 132 is being washed for 7000ms.
+2023-01-19 20:23:24.333: Car 117 has been cleaned successfully.
+2023-01-19 20:23:24.333: Car 127 is being cleaned for 15000ms.
+2023-01-19 20:23:26.472: Car 125 has been washed successfully.
+2023-01-19 20:23:26.472: Car 133 is being washed for 8000ms.
+2023-01-19 20:23:28.535: Car 121 has been cleaned successfully.
+2023-01-19 20:23:28.535: Car 131 has been washed successfully.
+2023-01-19 20:23:28.535: Car 135 is being washed for 5000ms.
+2023-01-19 20:23:28.535: Car 126 is being cleaned for 5000ms.
+2023-01-19 20:23:29.333: Car 120 has been cleaned successfully.
+2023-01-19 20:23:29.333: Car 125 is being cleaned for 15000ms.
+2023-01-19 20:23:29.567: Car 132 has been washed successfully.
+2023-01-19 20:23:29.567: Car 134 is being washed for 8000ms.
+2023-01-19 20:23:30.52: Car 124 has been washed successfully.
+2023-01-19 20:23:30.52: Car 123 is being washed for 7000ms.
+2023-01-19 20:23:31.485: Car 118 has been washed successfully.
+2023-01-19 20:23:31.485: Car 130 is being washed for 10000ms.
+2023-01-19 20:23:33.55: Car 135 has been washed successfully.
+2023-01-19 20:23:33.55: Car 126 has been cleaned successfully.
+2023-01-19 20:23:33.55: Car 138 is being washed for 5000ms.
+2023-01-19 20:23:33.55: Car 131 is being cleaned for 15000ms.
+2023-01-19 20:23:34.484: Car 133 has been washed successfully.
+2023-01-19 20:23:34.485: Car 129 is being washed for 8000ms.
+2023-01-19 20:23:35.516: Car 122 has been cleaned successfully.
+2023-01-19 20:23:35.516: Car 132 is being cleaned for 10000ms.
+2023-01-19 20:23:37.525: Car 123 has been washed successfully.
+2023-01-19 20:23:37.525: Car 128 is being washed for 5000ms.
+2023-01-19 20:23:37.572: Car 134 has been washed successfully.
+2023-01-19 20:23:37.572: Car 142 is being washed for 5000ms.
+2023-01-19 20:23:38.553: Car 138 has been washed successfully.
+2023-01-19 20:23:38.553: Car 143 is being washed for 10000ms.
+2023-01-19 20:23:39.347: Car 127 has been cleaned successfully.
+2023-01-19 20:23:39.347: Car 135 is being cleaned for 15000ms.
+2023-01-19 20:23:41.492: Car 130 has been washed successfully.
+2023-01-19 20:23:41.492: Car 137 is being washed for 8000ms.
+2023-01-19 20:23:42.49: Car 129 has been washed successfully.
+2023-01-19 20:23:42.49: Car 144 is being washed for 6000ms.
+2023-01-19 20:23:42.536: Car 128 has been washed successfully.
+2023-01-19 20:23:42.536: Car 146 is being washed for 10000ms.
+2023-01-19 20:23:42.583: Car 142 has been washed successfully.
+2023-01-19 20:23:42.583: Car 145 is being washed for 6000ms.
+2023-01-19 20:23:44.345: Car 125 has been cleaned successfully.
+2023-01-19 20:23:44.345: Car 133 is being cleaned for 10000ms.
+2023-01-19 20:23:45.527: Car 132 has been cleaned successfully.
+2023-01-19 20:23:45.527: Car 134 is being cleaned for 15000ms.
+2023-01-19 20:23:48.501: Car 144 has been washed successfully.
+2023-01-19 20:23:48.501: Car 147 is being washed for 10000ms.
+2023-01-19 20:23:48.564: Car 143 has been washed successfully.
+2023-01-19 20:23:48.564: Car 131 has been cleaned successfully.
+2023-01-19 20:23:48.564: Car 141 is being washed for 7000ms.
+2023-01-19 20:23:48.564: Car 138 is being cleaned for 10000ms.
+2023-01-19 20:23:48.594: Car 145 has been washed successfully.
+2023-01-19 20:23:48.594: Car 140 is being washed for 5000ms.
+2023-01-19 20:23:49.499: Car 137 has been washed successfully.
+2023-01-19 20:23:49.499: Car 136 is being washed for 6000ms.
+2023-01-19 20:23:52.538: Car 146 has been washed successfully.
+2023-01-19 20:23:52.538: Car 150 is being washed for 8000ms.
+2023-01-19 20:23:53.596: Car 140 has been washed successfully.
+2023-01-19 20:23:53.596: Car 152 is being washed for 10000ms.
+2023-01-19 20:23:54.358: Car 135 has been cleaned successfully.
+2023-01-19 20:23:54.358: Car 133 has been cleaned successfully.
+2023-01-19 20:23:54.358: Car 142 is being cleaned for 5000ms.
+2023-01-19 20:23:54.358: Car 144 is being cleaned for 5000ms.
+2023-01-19 20:23:55.508: Car 136 has been washed successfully.
+2023-01-19 20:23:55.508: Car 149 is being washed for 7000ms.
+2023-01-19 20:23:55.571: Car 141 has been washed successfully.
+2023-01-19 20:23:55.571: Car 139 is being washed for 8000ms.
+2023-01-19 20:23:58.509: Car 147 has been washed successfully.
+2023-01-19 20:23:58.509: Car 155 is being washed for 9000ms.
+2023-01-19 20:23:58.572: Car 138 has been cleaned successfully.
+2023-01-19 20:23:58.572: Car 143 is being cleaned for 5000ms.
+2023-01-19 20:23:59.372: Car 144 has been cleaned successfully.
+2023-01-19 20:23:59.372: Car 142 has been cleaned successfully.
+2023-01-19 20:23:59.372: Car 145 is being cleaned for 10000ms.
+2023-01-19 20:23:59.372: Car 146 is being cleaned for 10000ms.
+2023-01-19 20:24:00.538: Car 134 has been cleaned successfully.
+2023-01-19 20:24:00.538: Car 150 has been washed successfully.
+2023-01-19 20:24:00.538: Car 147 is being cleaned for 10000ms.
+2023-01-19 20:24:00.538: Car 156 is being washed for 5000ms.
+2023-01-19 20:24:02.519: Car 149 has been washed successfully.
+2023-01-19 20:24:02.519: Car 157 is being washed for 6000ms.
+2023-01-19 20:24:03.583: Car 139 has been washed successfully.
+2023-01-19 20:24:03.583: Car 143 has been cleaned successfully.
+2023-01-19 20:24:03.583: Car 158 is being washed for 8000ms.
+2023-01-19 20:24:03.583: Car 150 is being cleaned for 10000ms.
+2023-01-19 20:24:03.599: Car 152 has been washed successfully.
+2023-01-19 20:24:03.599: Car 159 is being washed for 6000ms.
+2023-01-19 20:24:05.553: Car 156 has been washed successfully.
+2023-01-19 20:24:05.553: Car 148 is being washed for 8000ms.
+2023-01-19 20:24:07.517: Car 155 has been washed successfully.
+2023-01-19 20:24:07.517: Car 154 is being washed for 10000ms.
+2023-01-19 20:24:08.53: Car 157 has been washed successfully.
+2023-01-19 20:24:08.53: Car 163 is being washed for 5000ms.
+2023-01-19 20:24:09.387: Car 146 has been cleaned successfully.
+2023-01-19 20:24:09.387: Car 145 has been cleaned successfully.
+2023-01-19 20:24:09.387: Car 152 is being cleaned for 5000ms.
+2023-01-19 20:24:09.387: Car 156 is being cleaned for 5000ms.
+2023-01-19 20:24:09.606: Car 159 has been washed successfully.
+2023-01-19 20:24:09.606: Car 161 is being washed for 6000ms.
+2023-01-19 20:24:10.541: Car 147 has been cleaned successfully.
+2023-01-19 20:24:10.541: Car 155 is being cleaned for 10000ms.
+2023-01-19 20:24:11.589: Car 158 has been washed successfully.
+2023-01-19 20:24:11.589: Car 151 is being washed for 7000ms.
+2023-01-19 20:24:13.545: Car 163 has been washed successfully.
+2023-01-19 20:24:13.545: Car 164 is being washed for 10000ms.
+2023-01-19 20:24:13.56: Car 148 has been washed successfully.
+2023-01-19 20:24:13.56: Car 165 is being washed for 5000ms.
+2023-01-19 20:24:13.591: Car 150 has been cleaned successfully.
+2023-01-19 20:24:13.591: Car 157 is being cleaned for 5000ms.
+2023-01-19 20:24:14.389: Car 156 has been cleaned successfully.
+2023-01-19 20:24:14.389: Car 152 has been cleaned successfully.
+2023-01-19 20:24:14.389: Car 159 is being cleaned for 15000ms.
+2023-01-19 20:24:14.389: Car 158 is being cleaned for 5000ms.
+2023-01-19 20:24:15.608: Car 161 has been washed successfully.
+2023-01-19 20:24:15.608: Car 167 is being washed for 6000ms.
+2023-01-19 20:24:17.531: Car 154 has been washed successfully.
+2023-01-19 20:24:17.531: Car 166 is being washed for 6000ms.
+2023-01-19 20:24:18.574: Car 165 has been washed successfully.
+2023-01-19 20:24:18.574: Car 153 is being washed for 8000ms.
+2023-01-19 20:24:18.604: Car 151 has been washed successfully.
+2023-01-19 20:24:18.604: Car 157 has been cleaned successfully.
+2023-01-19 20:24:18.604: Car 162 is being washed for 7000ms.
+2023-01-19 20:24:18.604: Car 163 is being cleaned for 15000ms.
+2023-01-19 20:24:19.393: Car 158 has been cleaned successfully.
+2023-01-19 20:24:19.393: Car 161 is being cleaned for 5000ms.
+2023-01-19 20:24:20.552: Car 155 has been cleaned successfully.
+2023-01-19 20:24:20.552: Car 165 is being cleaned for 5000ms.
+2023-01-19 20:24:21.623: Car 167 has been washed successfully.
+2023-01-19 20:24:21.623: Car 160 is being washed for 6000ms.
+2023-01-19 20:24:23.542: Car 166 has been washed successfully.
+2023-01-19 20:24:23.557: Car 164 has been washed successfully.
+2023-01-19 20:24:24.405: Car 161 has been cleaned successfully.
+2023-01-19 20:24:24.405: Car 167 is being cleaned for 5000ms.
+2023-01-19 20:24:25.56: Car 165 has been cleaned successfully.
+2023-01-19 20:24:25.56: Car 166 is being cleaned for 5000ms.
+2023-01-19 20:24:25.605: Car 162 has been washed successfully.
+2023-01-19 20:24:26.584: Car 153 has been washed successfully.
+2023-01-19 20:24:27.627: Car 160 has been washed successfully.
+2023-01-19 20:24:29.395: Car 159 has been cleaned successfully.
+2023-01-19 20:24:29.395: Car 164 is being cleaned for 5000ms.
+2023-01-19 20:24:29.41: Car 167 has been cleaned successfully.
+2023-01-19 20:24:30.567: Car 166 has been cleaned successfully.
+2023-01-19 20:24:33.608: Car 163 has been cleaned successfully.
+2023-01-19 20:24:34.405: Car 164 has been cleaned successfully.
+
+Process finished with exit code 0
