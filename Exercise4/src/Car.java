@@ -17,7 +17,7 @@ public class Car implements Runnable {
         if (!this.needsIndoorCleaning) {
             this.wash();
             return;
-        } else if (this.carWashPark.getIndoorCleaningBoxes().hasAvailableIndoorCleaningBox()) {
+        } else if (this.carWashPark.getIndoorCleaningBoxes().hasAvailableSlots()) {
             this.cleanIndoor();
             this.wash();
             return;
@@ -28,12 +28,10 @@ public class Car implements Runnable {
     }
 
     private void wash() {
-        WashingLineCollection washingLines = carWashPark.getWashingLines();
-        washingLines.wash(this);
+        carWashPark.getWashingLines().execute(this);
     }
 
     private void cleanIndoor() {
-        IndoorCleaningBoxCollection indoorCleaningBoxes = carWashPark.getIndoorCleaningBoxes();
-        indoorCleaningBoxes.clean(this);
+        carWashPark.getIndoorCleaningBoxes().execute(this);
     }
 }

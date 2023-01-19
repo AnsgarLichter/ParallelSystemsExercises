@@ -8,10 +8,10 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class Task4 {
-    private static final ExecutorService pool = Executors.newSingleThreadExecutor();
+    private static final ExecutorService pool = Executors.newCachedThreadPool();
     private static final ScheduledExecutorService scheduledExecutor = Executors.newSingleThreadScheduledExecutor();
     private static final WashParkRandomizer randomizer = new WashParkRandomizer();
-    private static final int DURATION_OF_1_HOUR = 10;
+    private static final int DURATION_OF_1_HOUR = 60000;
 
     public static void main(String[] args) {
         CarWashPark carWashPark = new CarWashPark(randomizer, 5, 4);
@@ -39,7 +39,6 @@ public class Task4 {
 
             int numberOfCars = getNumberOfCars(currentHour.get());
             int numberOfIndoorCleaning = getAmountOfIndoorCleaning(currentHour.get());
-            numberOfCars = 2; //TODO: Remove
             for (int k = 0; k < numberOfCars; k++) {
                 totalCountOfCarsInCurrentHour.getAndIncrement();
                 cars.add(
